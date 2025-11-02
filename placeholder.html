@@ -1,0 +1,1016 @@
+<!-- MALE TRAITS -->
+<div class="male-traits">
+  <h3>Male</h3>
+  <!-- BASE TRAITS -->
+  <div class="base-traits">
+    <h3 class="base-header">
+      Base Traits
+      <button class="collapse-btn" onclick="toggleBaseTraits()">▾</button>
+    </h3>
+    <div class="base-traits-slots" id="baseTraitsSlots">
+
+      <!-- Base -->
+      <div class="trait-slot">
+        <label>Base</label>
+        <button type="button" class="star-btn" onclick="toggleStar(this)">☆</button>
+        <input type="text" placeholder="Base" oninput="filterDropdown(this, 'baseOptions')" onclick="showDropdown(this, 'baseOptions')">
+        <div class="dropdown-options" id="baseOptions">
+          <!-- BLACK COUNTERSHADE DARK -->
+          <div data-base="black" data-colour="blackcountershadedark" data-rarity="common" data-class="custom">Black</div>
+          <div data-base="dikela" data-colour="blackcountershadedark" data-rarity="common" data-class="custom">Dikela</div>
+          <div data-base="gray" data-colour="blackcountershadedark" data-rarity="common" data-class="custom">Gray</div>
+          <div data-base="pewter" data-colour="blackcountershadedark" data-rarity="common" data-class="custom">Pewter</div>
+          <div data-base="vandal" data-colour="blackcountershadedark" data-rarity="common" data-class="custom">Vandal</div>
+          <div data-base="gunmetalgray" data-colour="blackcountershadedark" data-rarity="uncommon" data-class="custom">Gunmetal Gray</div>
+          <div data-base="korat" data-colour="blackcountershadedark" data-rarity="uncommon" data-class="custom">Korat</div>
+          <div data-base="cimmerian" data-colour="blackcountershadedark" data-rarity="rare" data-class="breedonly">Cimmerian</div>
+          <div data-base="slate" data-colour="blackcountershadedark" data-rarity="rare" data-class="custom">Slate</div>
+          <div data-base="augur" data-colour="blackcountershadedark" data-rarity="special" data-class="applicator">Augur</div>
+          <div data-base="celestial" data-colour="blackcountershadedark" data-rarity="special" data-class="breedonly">Celestial</div>
+          <div data-base="constellation" data-colour="blackcountershadedark" data-rarity="special" data-class="combo">Constellation</div>
+          <div data-base="divine" data-colour="blackcountershadeddark" data-rarity="special" data-class="applicator">Divine</div>
+          <div data-base="elysian" data-colour="blackcountershadeddark" data-rarity="special" data-class="combo">Elysian</div>
+          <div data-base="ice" data-colour="blackcountershadeddark" data-rarity="special" data-class="applicator">Ice</div>
+          <div data-base="jellyfish" data-colour="blackcountershadeddark" data-rarity="special" data-class="breedonly">Jellyfish</div>
+          <div data-base="penumbra" data-colour="blackcountershadeddark" data-rarity="special" data-class="applicator">Penumbra</div>
+          <div data-base="ra" data-colour="blackcountershadeddark" data-rarity="special" data-class="combo">Ra</div>
+          <div data-base="shard" data-colour="blackcountershadeddark" data-rarity="special" data-class="applicator">Shard</div>
+          <div data-base="witch" data-colour="blackcountershadeddark" data-rarity="special" data-class="combo">Witch</div>  
+          <!-- BLACK COUNTERSHADE MEDIUM -->
+          <div data-base="dun" data-colour="blackcountershademedium" data-rarity="common" data-class="custom">Dun</div>
+          <div data-base="steele" data-colour="blackcountershademedium" data-rarity="common" data-class="custom">Steele</div>
+          <div data-base="sterling" data-colour="blackcountershademedium" data-rarity="common" data-class="custom">Sterling</div>
+          <div data-base="maltese" data-colour="blackcountershademedium" data-rarity="uncommon" data-class="custom">Maltese</div>
+          <div data-base="cocoa" data-colour="blackcountershademedium" data-rarity="rare" data-class="breedonly">Cocoa</div>
+          <div data-base="desolate" data-colour="blackcountershademedium" data-rarity="rare" data-class="breedonly">Desolate</div>
+          <div data-base="arctic" data-colour="blackcountershademedium" data-rarity="special" data-class="applicator">Arctic</div>
+          <div data-base="aufeis" data-colour="blackcountershademedium" data-rarity="special" data-class="applicator">Aufeis</div>
+          <div data-base="bluepoinsettia" data-colour="blackcountershademedium" data-rarity="special" data-class="applicator">Blue Poinsettia</div>
+          <div data-base="cottoncandy" data-colour="blackcountershademedium" data-rarity="special" data-class="applicator">Cotton Candy</div>
+          <div data-base="cloudburst" data-colour="blackcountershademedium" data-rarity="special" data-class="combo">Cloudburst</div>
+          <div data-base="ennead" data-colour="blackcountershademedium" data-rarity="special" data-class="combo">Ennead</div>
+          <div data-base="hematite" data-colour="blackcountershademedium" data-rarity="special" data-class="applicator">Hematite</div>
+          <div data-base="hoarfrost" data-colour="blackcountershademedium" data-rarity="special" data-class="combo">Hoarfrost</div>
+          <div data-base="leonid" data-colour="blackcountershademedium" data-rarity="special" data-class="breedonly">Leonid</div>
+          <div data-base="moonstone" data-colour="blackcountershademedium" data-rarity="special" data-class="applicator">Moonstone</div>
+          <div data-base="murk" data-colour="blackcountershademedium" data-rarity="special" data-class="applicator">Murk</div>
+          <div data-base="rime" data-colour="blackcountershademedium" data-rarity="special" data-class="combo">Rime</div>
+          <div data-base="sidereal" data-colour="blackcountershademedium" data-rarity="special" data-class="breedonly">Sidereal</div>
+          <div data-base="zombie" data-colour="blackcountershademedium" data-rarity="special" data-class="applicator">Zombie</div>
+          <!-- BLACK COUNTERSHADE LIGHT -->
+          <div data-base="dovegray" data-colour="blackcountershadelight" data-rarity="common" data-class="custom">Dove Gray</div>
+          <div data-base="dusty" data-colour="blackcountershadelight" data-rarity="common" data-class="custom">Dusty</div>
+          <div data-base="rosybrown" data-colour="blackcountershadelight" data-rarity="common" data-class="custom">Rosy Brown</div>
+          <div data-base="silvergray" data-colour="blackcountershadelight" data-rarity="common" data-class="custom">Silver Gray</div>
+          <div data-base="chartreux" data-colour="blackcountershadelight" data-rarity="rare" data-class="breedonly">Chartreux</div>
+          <div data-base="snowpard" data-colour="blackcountershadelight" data-rarity="rare" data-class="breedonly">Snowpard</div>
+          <div data-base="glacial" data-colour="blackcountershadelight" data-rarity="special" data-class="applicator">Glacial</div>
+          <div data-base="kunzite" data-colour="blackcountershadelight" data-rarity="special" data-class="applicator">Kunzite</div>
+          <div data-base="mistletoe" data-colour="blackcountershadelight" data-rarity="special" data-class="combo">Mistletoe</div>
+          <div data-base="opal" data-colour="blackcountershadelight" data-rarity="special" data-class="applicator">Opal</div>
+          <div data-base="pulsar" data-colour="blackcountershadelight" data-rarity="special" data-class="combo">Pulsar</div>
+          <div data-base="skyward" data-colour="blackcountershadelight" data-rarity="special" data-class="breedonly">Skyward</div>
+          <div data-base="snowflake" data-colour="blackcountershadelight" data-rarity="special" data-class="combo">Snowflake</div>
+          <div data-base="soul" data-colour="blackcountershadelight" data-rarity="special" data-class="combo">Soul</div>
+          <div data-base="stratosphere" data-colour="blackcountershadelight" data-rarity="special" data-class="breedonly">Stratosphere</div>
+          <!-- BLACK SOLID DARK -->
+          <div data-base="chestnut" data-colour="blacksoliddark" data-rarity="common" data-class="custom">Chestnut</div>
+          <div data-base="jet" data-colour="blacksoliddark" data-rarity="common" data-class="custom">Jet</div>
+          <div data-base="obsidian" data-colour="blacksoliddark" data-rarity="common" data-class="custom">Obsidian</div>
+          <div data-base="titanium" data-colour="blacksoliddark" data-rarity="common" data-class="custom">Titanium</div>
+          <div data-base="onyx" data-colour="blacksoliddark" data-rarity="uncommon" data-class="custom">Onyx</div>
+          <div data-base="ebony" data-colour="blacksoliddark" data-rarity="rare" data-class="rare">Ebony</div>
+          <div data-base="noctis" data-colour="blacksoliddark" data-rarity="rare" data-class="rare">Noctis</div>
+          <div data-base="harbinger" data-colour="blacksoliddark" data-rarity="special" data-class="applicator">Harbinger</div>
+          <div data-base="haruspex" data-colour="blacksoliddark" data-rarity="special" data-class="applicator">Haruspex</div>
+          <div data-base="haze" data-colour="blacksoliddark" data-rarity="special" data-class="breedonly">Haze</div>
+          <div data-base="heh" data-colour="blacksoliddark" data-rarity="special" data-class="combo">Heh</div>
+          <div data-base="incense" data-colour="blacksoliddark" data-rarity="special" data-class="applicator">Incense</div>
+          <div data-base="interstellar" data-colour="blacksoliddark" data-rarity="special" data-class="applicator">Interstellar</div>
+          <div data-base="nadir" data-colour="blacksoliddark" data-rarity="special" data-class="combo">Nadir</div>
+          <div data-base="nun" data-colour="blacksoliddark" data-rarity="special" data-class="combo">Nun</div>
+          <div data-base="nuummite" data-colour="blacksoliddark" data-rarity="special" data-class="applicator">Nuummite</div>
+          <div data-base="spectre" data-colour="blacksoliddark" data-rarity="special" data-class="applicator">Spectre</div>
+          <div data-base="styx" data-colour="blacksoliddark" data-rarity="special" data-class="combo">Styx</div>
+          <div data-base="velvet" data-colour="blacksoliddark" data-rarity="special" data-class="applicator">Velvet</div>
+          <!-- BLACK SOLID MEDIUM -->
+          <div data-base="darkbrown" data-colour="blacksolidmedium" data-rarity="common" data-class="custom">Dark Brown</div>
+          <div data-base="liver" data-colour="blacksolidmedium" data-rarity="common" data-class="custom">Liver</div>
+          <div data-base="silver" data-colour="blacksolidmedium" data-rarity="common" data-class="custom">Silver</div>
+          <div data-base="flint" data-colour="blacksolidmedium" data-rarity="rare" data-class="breedonly">Flint</div>
+          <div data-base="platinum" data-colour="blacksolidmedium" data-rarity="rare" data-class="breedonly">Platinum</div>
+          <div data-base="basalt" data-colour="blacksolidmedium" data-rarity="special" data-class="combo">Basalt</div>
+          <div data-base="dapplegray" data-colour="blacksolidmedium" data-rarity="special" data-class="applicator">Dapple Gray</div>
+          <div data-base="demiurge" data-colour="blacksolidmedium" data-rarity="special" data-class="applicator">Demiurge</div>
+          <div data-base="duat" data-colour="blacksolidmedium" data-rarity="special" data-class="applicator">Duat</div>
+          <div data-base="frostbitten" data-colour="blacksolidmedium" data-rarity="special" data-class="applicator">Frostbitten</div>
+          <div data-base="incorporeal" data-colour="blacksolidmedium" data-rarity="special" data-class="applicator">Incorporeal</div>
+          <div data-base="lilac" data-colour="blacksolidmedium" data-rarity="special" data-class="breedonly">Lilac</div>
+          <div data-base="majivu" data-colour="blacksolidmedium" data-rarity="special" data-class="combo">Majivu</div>
+          <div data-base="medal" data-colour="blacksolidmedium" data-rarity="special" data-class="applicator">Medal</div>
+          <div data-base="nephthys" data-colour="blacksolidmedium" data-rarity="special" data-class="applicator">Nephthys</div>
+          <div data-base="rhino" data-colour="blacksolidmedium" data-rarity="special" data-class="applicator">Rhino</div>
+          <!-- BLACK SOLID LIGHT -->
+          <div data-base="albino" data-colour="blacksolidlight" data-rarity="common" data-class="custom">Albino</div>
+          <div data-base="birch" data-colour="blacksolidlight" data-rarity="common" data-class="custom">Birch</div>
+          <div data-base="eggshell" data-colour="blacksolidlight" data-rarity="common" data-class="custom">Eggshell</div>
+          <div data-base="isabel" data-colour="blacksolidlight" data-rarity="common" data-class="custom">Isabel</div>
+          <div data-base="white" data-colour="blacksolidlight" data-rarity="common" data-class="custom">White</div>
+          <div data-base="aspen" data-colour="blacksolidlight" data-rarity="uncommon" data-class="custom">Aspen</div>
+          <div data-base="clearwhite" data-colour="blacksolidlight" data-rarity="uncommon" data-class="custom">Clear White</div>
+          <div data-base="willow" data-colour="blacksolidlight" data-rarity="uncommon" data-class="custom">Willow</div>
+          <div data-base="ashen" data-colour="blacksolidlight" data-rarity="rare" data-class="breedonly">Ashen</div>
+          <div data-base="frost" data-colour="blacksolidlight" data-rarity="rare" data-class="breedonly">Frost</div>
+          <div data-base="cairngorm" data-colour="blacksolidlight" data-rarity="special" data-class="combo">Cairngorm</div>
+          <div data-base="celsian" data-colour="blacksolidlight" data-rarity="special" data-class="combo">Celsian</div>
+          <div data-base="glass" data-colour="blacksolidlight" data-rarity="special" data-class="applicator">Glass</div>
+          <div data-base="gleam" data-colour="blacksolidlight" data-rarity="special" data-class="combo">Gleam</div>
+          <div data-base="khnum" data-colour="blacksolidlight" data-rarity="special" data-class="applicator">Khnum</div>
+          <div data-base="opalescent" data-colour="blacksolidlight" data-rarity="special" data-class="breedonly">Opalescent</div>
+          <div data-base="phantom" data-colour="blacksolidlight" data-rarity="special" data-class="applicator">Phantom</div>
+          <div data-base="waterhyacinth" data-colour="blacksolidlight" data-rarity="special" data-class="applicator">Water Hyacinth</div>
+          <!-- CREAM COUNTERSHADE DARK -->
+          <div data-base="blonde" data-colour="creamcountershadedark" data-rarity="common" data-class="custom">Blonde</div>
+          <div data-base="dustyrose" data-colour="creamcountershadedark" data-rarity="common" data-class="custom">Dusty Rose</div>
+          <div data-base="pecan" data-colour="creamcountershadedark" data-rarity="common" data-class="custom">Pecan</div>
+          <div data-base="savannah" data-colour="creamcountershadedark" data-rarity="common" data-class="custom">Savannah</div>
+          <div data-base="russet" data-colour="creamcountershadedark" data-rarity="uncommon" data-class="custom">Russet</div>
+          <div data-base="flaxen" data-colour="creamcountershadedark" data-rarity="rare" data-class="breedonly">Flaxen</div>
+          <div data-base="senegal" data-colour="creamcountershadedark" data-rarity="rare" data-class="breedonly">Senegal</div>
+          <div data-base="arabica" data-colour="creamcountershadedark" data-rarity="special" data-class="combo">Arabica</div>
+          <div data-base="grullo" data-colour="creamcountershadedark" data-rarity="special" data-class="applicator">Grullo</div>
+          <div data-base="inpu" data-colour="creamcountershadedark" data-rarity="special" data-class="applicator">Inpu</div>
+          <div data-base="jacana" data-colour="creamcountershadedark" data-rarity="special" data-class="applicator">Jacana</div>
+          <div data-base="mossagate" data-colour="creamcountershadedark" data-rarity="special" data-class="applicator">Moss Agate</div>
+          <div data-base="mummy" data-colour="creamcountershadedark" data-rarity="special" data-class="applicator">Mummy</div>
+          <div data-base="nacre" data-colour="creamcountershadedark" data-rarity="special" data-class="applicator">Nacre</div>
+          <div data-base="nomad" data-colour="creamcountershadedark" data-rarity="special" data-class="breedonly">Nomad</div>
+          <div data-base="olive" data-colour="creamcountershadedark" data-rarity="special" data-class="combo">Olive</div>
+          <div data-base="outlaw" data-colour="creamcountershadedark" data-rarity="special" data-class="breedly">Outlaw</div>
+          <div data-base="reindeer" data-colour="creamcountershadedark" data-rarity="special" data-class="applicator">Reindeer</div>
+          <div data-base="supernal" data-colour="creamcountershadedark" data-rarity="special" data-class="applicator">Supernal</div>
+          <div data-base="thoth" data-colour="creamcountershadedark" data-rarity="special" data-class="applicator">Thoth</div>
+          <div data-base="vagabond" data-colour="creamcountershadedark" data-rarity="special" data-class="applicator">Vagabond</div>
+          <!-- CREAM COUNTERSHADE MEDIUM -->
+          <div data-base="darkvanilla" data-colour="creamcountershademedium" data-rarity="common" data-class="custom">Dark Vanilla</div>
+          <div data-base="deepfawn" data-colour="creamcountershademedium" data-rarity="common" data-class="custom">Deep Fawn</div>
+          <div data-base="hazelnut" data-colour="creamcountershademedium" data-rarity="common" data-class="custom">Hazelnut</div>
+          <div data-base="mongoose" data-colour="creamcountershademedium" data-rarity="common" data-class="custom">Mongoose</div>
+          <div data-base="cameo" data-colour="creamcountershademedium" data-rarity="rare" data-class="breedonly">Cameo</div>
+          <div data-base="finch" data-colour="creamcountershademedium" data-rarity="rare" data-class="breedonly">Finch</div>
+          <div data-base="aardwolf" data-colour="creamcountershademedium" data-rarity="special" data-class="applicator">Aardwolf</div>
+          <div data-base="ammonite" data-colour="creamcountershademedium" data-rarity="special" data-class="applicator">Ammonite</div>
+          <div data-base="asiatic" data-colour="creamcountershademedium" data-rarity="special" data-class="combo">Asiatic</div>
+          <div data-base="esker" data-colour="creamcountershademedium" data-rarity="special" data-class="combo">Esker</div>
+          <div data-base="fossil" data-colour="creamcountershademedium" data-rarity="special" data-class="applicator">Fossil</div>
+          <div data-base="guardian" data-colour="creamcountershademedium" data-rarity="special" data-class="applicator">Guardian</div>
+          <div data-base="hallowed" data-colour="creamcountershademedium" data-rarity="special" data-class="applicator">Hallowed</div>
+          <div data-base="jackal" data-colour="creamcountershademedium" data-rarity="special" data-class="applicator">Jackal</div>
+          <div data-base="mushroom" data-colour="creamcountershademedium" data-rarity="special" data-class="breedonly">Mushroom</div>
+          <div data-base="pecora" data-colour="creamcountershademedium" data-rarity="special" data-class="breedonly">Pecora</div>
+          <div data-base="ragdoll" data-colour="creamcountershademedium" data-rarity="special" data-class="applicator">Ragdoll</div>
+          <div data-base="smog" data-colour="creamcountershademedium" data-rarity="special" data-class="combo">Smog</div>
+          <!-- CREAM COUNTERSHADE LIGHT -->
+          <div data-base="almond" data-colour="creamcountershadelight" data-rarity="common" data-class="custom">Almond</div>
+          <div data-base="antler" data-colour="creamcountershadelight" data-rarity="common" data-class="custom">Antler</div>
+          <div data-base="vanilla" data-colour="creamcountershadelight" data-rarity="common" data-class="custom">Vanilla</div>
+          <div data-base="buff" data-colour="creamcountershadelight" data-rarity="rare" data-class="breedonly">Buff</div>
+          <div data-base="tusk" data-colour="creamcountershadelight" data-rarity="rare" data-class="breedonly">Tusk</div>
+          <div data-base="aether" data-colour="creamcountershadelight" data-rarity="special" data-class="combo">Aether</div>
+          <div data-base="cherryblossom" data-colour="creamcountershadelight" data-rarity="special" data-class="applicator">Cherry Blossom</div>
+          <div data-base="eggnog" data-colour="creamcountershadelight" data-rarity="special" data-class="applicator">Eggnog</div>
+          <div data-base="ethereal" data-colour="creamcountershadelight" data-rarity="special" data-class="applicator">Ethereal</div>
+          <div data-base="horizon" data-colour="creamcountershadelight" data-rarity="special" data-class="combo">Horizon</div>
+          <div data-base="howlite" data-colour="creamcountershadelight" data-rarity="special" data-class="applicator">Howlite</div>
+          <div data-base="ivory" data-colour="creamcountershadelight" data-rarity="special" data-class="applicator">Ivory</div>
+          <div data-base="nautilus" data-colour="creamcountershadelight" data-rarity="special" data-class="applicator">Nautilus</div>
+          <div data-base="skeletal" data-colour="creamcountershadelight" data-rarity="special" data-class="applicator">Skeletal</div>
+          <!-- CREAM SOLID DARK -->
+          <div data-base="caramel" data-colour="creamsoliddark" data-rarity="common" data-class="custom">Caramel</div>
+          <div data-base="khaki" data-colour="creamsoliddark" data-rarity="common" data-class="custom">Khaki</div>
+          <div data-base="persimmon" data-colour="creamsoliddark" data-rarity="common" data-class="custom">Persimmon</div>
+          <div data-base="tan" data-colour="creamsoliddark" data-rarity="common" data-class="custom">Tan</div>
+          <div data-base="butternut" data-colour="creamsoliddark" data-rarity="uncommon" data-class="custom">Butternut</div>
+          <div data-base="amber" data-colour="creamsoliddark" data-rarity="rare" data-class="breedonly">Amber</div>
+          <div data-base="soot" data-colour="creamsoliddark" data-rarity="rare" data-class="breedonly">Soot</div>
+          <div data-base="hellebore" data-colour="creamsoliddark" data-rarity="special" data-class="combo">Hellebore</div>
+          <div data-base="meteorite" data-colour="creamsoliddark" data-rarity="special" data-class="applicator">Meteorite</div>
+          <div data-base="parhelion" data-colour="creamsoliddark" data-rarity="special" data-class="applicator">Parhelion</div>
+          <div data-base="przewalski" data-colour="creamsoliddark" data-rarity="special" data-class="applicator">Przewalski</div>
+          <div data-base="qahir" data-colour="creamsoliddark" data-rarity="special" data-class="combo">Qahir</div>
+          <div data-base="seer" data-colour="creamsoliddark" data-rarity="special" data-class="applicator">Seer</div>
+          <!-- CREAM SOLID MEDIUM -->
+          <div data-base="camel" data-colour="creamsolidmedium" data-rarity="common" data-class="custom">Camel</div>
+          <div data-base="cream" data-colour="creamsolidmedium" data-rarity="common" data-class="custom">Cream</div>
+          <div data-base="creamdarker" data-colour="creamsolidmedium" data-rarity="common" data-class="custom">Cream Darker</div>
+          <div data-base="darkfawn" data-colour="creamsolidmedium" data-rarity="common" data-class="custom">Dark Fawn</div>
+          <div data-base="fawn" data-colour="creamsolidmedium" data-rarity="common" data-class="custom">Fawn</div>
+          <div data-base="argent" data-colour="creamsolidmedium" data-rarity="rare" data-class="breedonly">Argent</div>
+          <div data-base="buttercream" data-colour="creamsolidmedium" data-rarity="rare" data-class="breedonly">Buttercream</div>
+          <div data-base="atlas" data-colour="creamsolidmedium" data-rarity="special" data-class="applicator">Atlas</div>
+          <div data-base="heavenly" data-colour="creamsolidmedium" data-rarity="special" data-class="applicator">Heavenly</div>
+          <div data-base="pearl" data-colour="creamsolidmedium" data-rarity="special" data-class="breedonly">Pearl</div>
+          <div data-base="ruffian" data-colour="creamsolidmedium" data-rarity="special" data-class="breedonly">Ruffian</div>
+          <div data-base="sphinx" data-colour="creamsolidmedium" data-rarity="special" data-class="combo">Sphinx</div>
+          <!-- CREAM SOLID LIGHT -->
+          <div data-base="apricot" data-colour="creamsolidlight" data-rarity="common" data-class="custom">Apricot</div>
+          <div data-base="beige" data-colour="creamsolidlight" data-rarity="common" data-class="custom">Beige</div>
+          <div data-base="creamlighter" data-colour="creamsolidlight" data-rarity="common" data-class="custom">Cream Lighter</div>
+          <div data-base="lightcream" data-colour="creamsolidlight" data-rarity="common" data-class="custom">Light Cream</div>
+          <div data-base="buttermilk" data-colour="creamsolidlight" data-rarity="uncommon" data-class="custom">Buttermilk</div>
+          <div data-base="latte" data-colour="creamsolidlight" data-rarity="rare" data-class="breedonly">Latte</div>
+          <div data-base="teardrop" data-colour="creamsolidlight" data-rarity="rare" data-class="breedonly">Teardrop</div>
+          <div data-base="alabaster" data-colour="creamsolidlight" data-rarity="special" data-class="applicator">Alabaster</div>
+          <div data-base="citron" data-colour="creamsolidlight" data-rarity="special" data-class="applicator">Citron</div>
+          <div data-base="solaris" data-colour="creamsolidlight" data-rarity="special" data-class="applicator">Solaris</div>      
+          <!-- GOLDEN COUNTERSHADED DARK -->
+          <div data-base="deira" data-colour="goldencountershadeddark" data-rarity="common" data-class="custom">Deira</div>
+          <div data-base="doubloon" data-colour="goldencountershadeddark" data-rarity="common" data-class="custom">Doubloon</div>
+          <div data-base="jacinthe" data-colour="goldencountershadeddark" data-rarity="common" data-class="custom">Jacinthe</div>
+          <div data-base="ochre" data-colour="goldencountershadeddark" data-rarity="common" data-class="custom">Ochre</div>
+          <div data-base="dinar" data-colour="goldencountershadeddark" data-rarity="rare" data-class="breedonly">Dinar</div>
+          <div data-base="fulvous" data-colour="goldencountershadeddark" data-rarity="rare" data-class="breedonly">Fulvous</div>
+          <div data-base="abyssinian" data-colour="goldencountershadeddark" data-rarity="special" data-class="applicator">Abyssinian</div>
+          <div data-base="anubis" data-colour="goldencountershadeddark" data-rarity="special" data-class="applicator">Anubis</div>
+          <div data-base="asali" data-colour="goldencountershadeddark" data-rarity="special" data-class="nclexclusive">Asali</div>
+          <div data-base="cretaceous" data-colour="goldencountershadeddark" data-rarity="special" data-class="applicator">Cretaceous</div>
+          <div data-base="ember" data-colour="goldencountershadeddark" data-rarity="special" data-class="combo">Ember</div>
+          <div data-base="ganache" data-colour="goldencountershadeddark" data-rarity="special" data-class="combo">Ganache</div>
+          <div data-base="hyena" data-colour="goldencountershadeddark" data-rarity="special" data-class="applicator">Hyena</div>
+          <div data-base="kimanjano" data-colour="goldencountershadeddark" data-rarity="special" data-class="leopon">Kimanjano</div>
+          <div data-base="ripe" data-colour="goldencountershadeddark" data-rarity="special" data-class="breedonly">Ripe</div>
+          <div data-base="swarm" data-colour="goldencountershadeddark" data-rarity="special" data-class="applicator">Swarm</div>
+          <!-- GOLDEN COUNTERSHADED MEDIUM -->
+          <div data-base="ducat" data-colour="goldencountershadedmedium" data-rarity="common" data-class="custom">Ducat</div>
+          <div data-base="oatmeal" data-colour="goldencountershadedmedium" data-rarity="common" data-class="custom">Oatmeal</div>
+          <div data-base="saffron" data-colour="goldencountershadedmedium" data-rarity="common" data-class="custom">Saffron</div>
+          <div data-base="sunflower" data-colour="goldencountershadedmedium" data-rarity="common" data-class="custom">Sunflower</div>
+          <div data-base="goridhe" data-colour="goldencountershadedmedium" data-rarity="rare" data-class="breedonly">Goridhe</div>
+          <div data-base="nacarat" data-colour="goldencountershadedmedium" data-rarity="rare" data-class="breedonly">Nacarat</div>
+          <div data-base="ailurus" data-colour="goldencountershadedmedium" data-rarity="special" data-class="combo">Ailurus</div>
+          <div data-base="bast" data-colour="goldencountershadedmedium" data-rarity="special" data-class="applicator">Bast</div>
+          <div data-base="bushveld" data-colour="goldencountershadedmedium" data-rarity="special" data-class="breedonly">Bushveld</div>
+          <div data-base="cabochon" data-colour="goldencountershadedmedium" data-rarity="special" data-class="applicator">Cabochon</div>
+          <div data-base="dhahabi" data-colour="goldencountershadedmedium" data-rarity="special" data-class="nclexclusive">Dhahabi</div>
+          <div data-base="hirola" data-colour="goldencountershadedmedium" data-rarity="special" data-class="applicator">Hirola</div>
+          <div data-base="mandarin" data-colour="goldencountershadedmedium" data-rarity="special" data-class="tigon">Mandarin</div>
+          <div data-base="maziwa" data-colour="goldencountershadedmedium" data-rarity="special" data-class="nclexclusive">Maziwa</div>
+          <div data-base="sepulture" data-colour="goldencountershadedmedium" data-rarity="special" data-class="applicator">Sepulture</div>
+          <div data-base="sunspot" data-colour="goldencountershadedmedium" data-rarity="special" data-class="breedonly">Sunspot</div>
+          <div data-base="wither" data-colour="goldencountershadedmedium" data-rarity="special" data-class="breedonly">Wither</div>
+          <div data-base="zloto" data-colour="goldencountershadedmedium" data-rarity="special" data-class="combo">Zloto</div>
+          <!-- GOLDEN COUNTERSHADED LIGHT -->
+          <div data-base="bisquit" data-colour="goldencountershadedlight" data-rarity="common" data-class="custom">Bisquit</div>
+          <div data-base="bone" data-colour="goldencountershadedlight" data-rarity="common" data-class="custom">Bone</div>
+          <div data-base="sunglow" data-colour="goldencountershadedlight" data-rarity="common" data-class="custom">Sunglow</div>
+          <div data-base="wheaten" data-colour="goldencountershadedlight" data-rarity="common" data-class="custom">Wheaten</div>
+          <div data-base="champagne" data-colour="goldencountershadedlight" data-rarity="rare" data-class="breedonly">Champagne</div>
+          <div data-base="powder" data-colour="goldencountershadedlight" data-rarity="rare" data-class="breedonly">Powder</div>
+          <div data-base="angelic" data-colour="goldencountershadedlight" data-rarity="special" data-class="applicator">Angelic</div>
+          <div data-base="citrine" data-colour="goldencountershadedlight" data-rarity="special" data-class="combo">Citrine</div>
+          <div data-base="haliotis" data-colour="goldencountershadedlight" data-rarity="special" data-class="applicator">Haliotis</div>
+          <div data-base="horus" data-colour="goldencountershadedlight" data-rarity="special" data-class="applicator">Horus</div>
+          <div data-base="maat" data-colour="goldencountershadedlight" data-rarity="special" data-class="applicator">Maat</div>
+          <div data-base="nudar" data-colour="goldencountershadedlight" data-rarity="special" data-class="breedonly">Nudar</div>
+          <div data-base="peach" data-colour="goldencountershadedlight" data-rarity="special" data-class="applicator">Peach</div>
+          <div data-base="triumph" data-colour="goldencountershadedlight" data-rarity="special" data-class="applicator">Triumph</div>
+          <!-- GOLDEN SOLID DARK -->
+          <div data-base="darkgolden" data-colour="goldensoliddark" data-rarity="common" data-class="custom">Dark Golden</div>
+          <div data-base="zarafshan" data-colour="goldensoliddark" data-rarity="common" data-class="custom">Zarafshan</div>
+          <div data-base="zarbanu" data-colour="goldensoliddark" data-rarity="common" data-class="custom">Zarbanu</div>
+          <div data-base="xanthic" data-colour="goldensoliddark" data-rarity="uncommon" data-class="custom">Xanthic</div>
+          <div data-base="honey" data-colour="goldensoliddark" data-rarity="rare" data-class="breedonly">Honey</div>
+          <div data-base="udara" data-colour="goldensoliddark" data-rarity="rare" data-class="breedonly">Udara</div>
+          <div data-base="chatoyant" data-colour="goldensoliddark" data-rarity="special" data-class="applicator">Chatoyant</div>
+          <div data-base="damu" data-colour="goldensoliddark" data-rarity="special" data-class="breedonly">Damu</div>
+          <div data-base="mudstone" data-colour="goldensoliddark" data-rarity="special" data-class="combo">Mudstone</div>
+          <div data-base="ornament" data-colour="goldensoliddark" data-rarity="special" data-class="applicator">Ornament</div>
+          <div data-base="protostar" data-colour="goldensoliddark" data-rarity="special" data-class="breedonly">Protostar</div>
+          <div data-base="sarcophagus" data-colour="goldensoliddark" data-rarity="special" data-class="applicator">Sarcophagus</div>
+          <div data-base="trophy" data-colour="goldensoliddark" data-rarity="special" data-class="applicator">Trophy</div>
+          <!-- GOLDEN SOLID MEDIUM -->
+          <div data-base="luteo" data-colour="goldensolidmedium" data-rarity="common" data-class="custom">Luteo</div>
+          <div data-base="mediumgolden" data-colour="goldensolidmedium" data-rarity="common" data-class="custom">Medium Golden</div>
+          <div data-base="sundust" data-colour="goldensolidmedium" data-rarity="common" data-class="custom">Sundust</div>
+          <div data-base="zarasa" data-colour="goldensolidmedium" data-rarity="common" data-class="custom">Zarasa</div>
+          <div data-base="zarin" data-colour="goldensolidmedium" data-rarity="common" data-class="custom">Zarin</div>
+          <div data-base="topaz" data-colour="goldensolidmedium" data-rarity="uncommon" data-class="custom">Topaz</div>
+          <div data-base="dandelion" data-colour="goldensolidmedium" data-rarity="rare" data-class="breedonly">Dandelion</div>
+          <div data-base="goldenrod" data-colour="goldensolidmedium" data-rarity="rare" data-class="breedonly">Goldenrod</div>
+          <div data-base="gilded" data-colour="goldensolidmedium" data-rarity="special" data-class="combo">Gilded</div>
+          <div data-base="green" data-colour="goldensolidmedium" data-rarity="special" data-class="applicator">Green</div>
+          <div data-base="gregarious" data-colour="goldensolidmedium" data-rarity="special" data-class="applicator">Gregarious</div>
+          <div data-base="labradorite" data-colour="goldensolidmedium" data-rarity="special" data-class="applicator">Labradorite</div>
+          <div data-base="mobola" data-colour="goldensolidmedium" data-rarity="special" data-class="nclexclusive">Mobola</div>
+          <div data-base="sahara" data-colour="goldensolidmedium" data-rarity="special" data-class="breedonly">Sahara</div>
+          <div data-base="victor" data-colour="goldensolidmedium" data-rarity="special" data-class="applicator">Victor</div>
+          <!-- GOLDEN SOLID LIGHT -->
+          <div data-base="bisque" data-colour="goldensolidlight" data-rarity="common" data-class="custom">Bisque</div>
+          <div data-base="lemon" data-colour="goldensolidlight" data-rarity="common" data-class="custom">Lemon</div>
+          <div data-base="lightgolden" data-colour="goldensolidlight" data-rarity="common" data-class="custom">Light Golden</div>
+          <div data-base="linen" data-colour="goldensolidlight" data-rarity="common" data-class="custom">Linen</div>
+          <div data-base="zer" data-colour="goldensolidlight" data-rarity="common" data-class="custom">Zer</div>
+          <div data-base="zivar" data-colour="goldensolidlight" data-rarity="common" data-class="custom">Zivar</div>
+          <div data-base="sunshine" data-colour="goldensolidlight" data-rarity="uncommon" data-class="custom">Sunshine</div>
+          <div data-base="sulphur" data-colour="goldensolidlight" data-rarity="rare" data-class="breedonly">Sulphur</div>
+          <div data-base="sunkissed" data-colour="goldensolidlight" data-rarity="rare" data-class="breedonly">Sunkissed</div>
+          <div data-base="festive" data-colour="goldensolidlight" data-rarity="special" data-class="applicator">Festive</div>
+          <div data-base="harvestmoon" data-colour="goldensolidlight" data-rarity="special" data-class="applicator">Harvest Moon</div>
+          <div data-base="hexaplex" data-colour="goldensolidlight" data-rarity="special" data-class="combo">Hexaplex</div>
+          <div data-base="marula" data-colour="goldensolidlight" data-rarity="special" data-class="applicator">Marula</div>
+          <div data-base="ukame" data-colour="goldensolidlight" data-rarity="special" data-class="breedonly">Ukame</div>      
+          <!-- RED COUNTERSHADED DARK -->
+          <div data-base="auburn" data-colour="redcountershadeddark" data-rarity="common" data-class="custom">Auburn</div>
+          <div data-base="brass" data-colour="redcountershadeddark" data-rarity="common" data-class="custom">Brass</div>
+          <div data-base="bronze" data-colour="redcountershadeddark" data-rarity="common" data-class="custom">Bronze</div>
+          <div data-base="mulberry" data-colour="redcountershadeddark" data-rarity="common" data-class="custom">Mulberry</div>
+          <div data-base="ruddy" data-colour="redcountershadeddark" data-rarity="common" data-class="custom">Ruddy</div>
+          <div data-base="cassis" data-colour="redcountershadeddark" data-rarity="rare" data-class="breedonly">Cassis</div>
+          <div data-base="prune" data-colour="redcountershadeddark" data-rarity="rare" data-class="breedonly">Prune</div>
+          <div data-base="ambrosia" data-colour="redcountershadeddark" data-rarity="special" data-class="breedonly">Ambrosia</div>
+          <div data-base="ater" data-colour="redcountershadeddark" data-rarity="special" data-class="combo">Ater</div>
+          <div data-base="beet" data-colour="redcountershadeddark" data-rarity="special" data-class="breedonly">Beet</div>
+          <div data-base="demonic" data-colour="redcountershadeddark" data-rarity="special" data-class="applicator">Demonic</div>
+          <div data-base="haunted" data-colour="redcountershadeddark" data-rarity="special" data-class="applicator">Haunted</div>
+          <div data-base="madagascar" data-colour="redcountershadeddark" data-rarity="special" data-class="combo">Madagascar</div>
+          <div data-base="nether" data-colour="redcountershadeddark" data-rarity="special" data-class="combo">Nether</div>
+          <div data-base="rhodonite" data-colour="redcountershadeddark" data-rarity="special" data-class="applicator">Rhodonite</div>
+          <div data-base="roughruby" data-colour="redcountershadeddark" data-rarity="special" data-class="applicator">Rough Ruby</div>
+          <div data-base="temporal" data-colour="redcountershadeddark" data-rarity="special" data-class="combo">Temporal</div>
+          <div data-base="unholy" data-colour="redcountershadeddark" data-rarity="special" data-class="applicator">Unholy</div>
+          <div data-base="wepwawet" data-colour="redcountershadeddark" data-rarity="special" data-class="applicator">Wepwawet</div>
+          <!-- RED COUNTERSHADED MEDIUM -->
+          <div data-base="ginger" data-colour="redcountershadedmedium" data-rarity="common" data-class="custom">Ginger</div>
+          <div data-base="mauve" data-colour="redcountershadedmedium" data-rarity="common" data-class="custom">Mauve</div>
+          <div data-base="rust" data-colour="redcountershadedmedium" data-rarity="common" data-class="custom">Rust</div>
+          <div data-base="rhubarb" data-colour="redcountershadedmedium" data-rarity="uncommon" data-class="custom">Rhubarb</div>
+          <div data-base="anjeer" data-colour="redcountershadedmedium" data-rarity="rare" data-class="breedonly">Anjeer</div>
+          <div data-base="scallop" data-colour="redcountershadedmedium" data-rarity="rare" data-class="breedonly">Scallop</div>
+          <div data-base="ankh" data-colour="redcountershadedmedium" data-rarity="special" data-class="applicator">Ankh</div>
+          <div data-base="brimstone" data-colour="redcountershadedmedium" data-rarity="special" data-class="applicator">Brimstone</div>
+          <div data-base="chaos" data-colour="redcountershadedmedium" data-rarity="special" data-class="applicator">Chaos</div>
+          <div data-base="deshret" data-colour="redcountershadedmedium" data-rarity="special" data-class="applicator">Deshret</div>
+          <div data-base="hibiscus" data-colour="redcountershadedmedium" data-rarity="special" data-class="applicator">Hibiscus</div>
+          <div data-base="inferno" data-colour="redcountershadedmedium" data-rarity="special" data-class="applicator">Inferno</div>
+          <div data-base="ogdoad" data-colour="redcountershadedmedium" data-rarity="special" data-class="combo">Ogdoad</div>
+          <div data-base="progenitor" data-colour="redcountershadedmedium" data-rarity="special" data-class="piety">Progenitor</div>
+          <div data-base="scoundrel" data-colour="redcountershadedmedium" data-rarity="special" data-class="breedonly">Scoundrel</div>
+          <div data-base="squall" data-colour="redcountershadedmedium" data-rarity="special" data-class="combo">Squall</div>
+          <div data-base="sunset" data-colour="redcountershadedmedium" data-rarity="special" data-class="breedonly">Sunset</div>
+          <div data-base="wine" data-colour="redcountershadedmedium" data-rarity="special" data-class="breedonly">Wine</div>
+          <!-- RED COUNTERSHADED LIGHT -->
+          <div data-base="copper" data-colour="redcountershadedlight" data-rarity="common" data-class="custom">Copper</div>
+          <div data-base="palomino" data-colour="redcountershadedlight" data-rarity="common" data-class="custom">Palomino</div>
+          <div data-base="sorrel" data-colour="redcountershadedlight" data-rarity="common" data-class="custom">Sorrel</div>
+          <div data-base="tawny" data-colour="redcountershadedlight" data-rarity="common" data-class="custom">Tawny</div>
+          <div data-base="rufous" data-colour="redcountershadedlight" data-rarity="uncommon" data-class="custom">Rufous</div>
+          <div data-base="fiery" data-colour="redcountershadedlight" data-rarity="rare" data-class="breedonly">Fiery</div>
+          <div data-base="maroon" data-colour="redcountershadedlight" data-rarity="rare" data-class="breedonly">Maroon</div>
+          <div data-base="taupe" data-colour="redcountershadedlight" data-rarity="rare" data-class="breedonly">Taupe</div>
+          <div data-base="ancestral" data-colour="redcountershadedlight" data-rarity="special" data-class="applicator">Ancestral</div>
+          <div data-base="astral" data-colour="redcountershadedlight" data-rarity="special" data-class="applicator">Astral</div>
+          <div data-base="azalea" data-colour="redcountershadedlight" data-rarity="special" data-class="applicator">Azalea</div>
+          <div data-base="bandit" data-colour="redcountershadedlight" data-rarity="special" data-class="breedonly">Bandit</div>
+          <div data-base="blazing" data-colour="redcountershadedlight" data-rarity="special" data-class="applicator">Blazing</div>
+          <div data-base="dawn" data-colour="redcountershadedlight" data-rarity="special" data-class="breedonly">Dawn</div>
+          <div data-base="drupa" data-colour="redcountershadedlight" data-rarity="special" data-class="applicator">Drupa</div>
+          <div data-base="flamingo" data-colour="redcountershadedlight" data-rarity="special" data-class="applicator">Flamingo</div>
+          <div data-base="fuchsia" data-colour="redcountershadedlight" data-rarity="special" data-class="applicator">Fuchsia</div>
+          <div data-base="iris" data-colour="redcountershadedlight" data-rarity="special" data-class="breedonly">Iris</div>
+          <div data-base="lotus" data-colour="redcountershadedlight" data-rarity="special" data-class="applicator">Lotus</div>
+          <div data-base="nefer" data-colour="redcountershadedlight" data-rarity="special" data-class="applicator">Nefer</div>
+          <div data-base="sunrise" data-colour="redcountershadedlight" data-rarity="special" data-class="breedonly">Sunrise</div>
+          <div data-base="sutekh" data-colour="redcountershadedlight" data-rarity="special" data-class="applicator">Sutekh</div>
+          <!-- RED SOLID DARK -->
+          <div data-base="chocolate" data-colour="redsoliddark" data-rarity="common" data-class="custom">Chocolate</div>
+          <div data-base="henna" data-colour="redsoliddark" data-rarity="common" data-class="custom">Henna</div>
+          <div data-base="redwood" data-colour="redsoliddark" data-rarity="common" data-class="custom">Redwood</div>
+          <div data-base="acacia" data-colour="redsoliddark" data-rarity="rare" data-class="breedonly">Acacia</div>
+          <div data-base="shedua" data-colour="redsoliddark" data-rarity="rare" data-class="breedonly">Shedua</div>
+          <div data-base="blackrose" data-colour="redsoliddark" data-rarity="special" data-class="combo">Black Rose</div>
+          <div data-base="bloodmoon" data-colour="redsoliddark" data-rarity="special" data-class="applicator">Blood Moon</div>
+          <div data-base="bloodbourne" data-colour="redsoliddark" data-rarity="special" data-class="applicator">Bloodbourne</div>
+          <div data-base="bloodstone" data-colour="redsoliddark" data-rarity="special" data-class="applicator">Bloodstone</div>
+          <div data-base="manakbir" data-colour="redsoliddark" data-rarity="special" data-class="applicator">Manakbir</div>
+          <div data-base="manticore" data-colour="redsoliddark" data-rarity="special" data-class="applicator">Manticore</div>
+          <div data-base="merlot" data-colour="redsoliddark" data-rarity="special" data-class="applicator">Merlot</div>
+          <div data-base="plague" data-colour="redsoliddark" data-rarity="special" data-class="combo">Plague</div>
+          <div data-base="prismatic" data-colour="redsoliddark" data-rarity="special" data-class="breedonly">Prismatic</div>
+          <div data-base="sha" data-colour="redsoliddark" data-rarity="special" data-class="applicator">Sha</div>
+          <div data-base="wicked" data-colour="redsoliddark" data-rarity="special" data-class="applicator">Wicked</div>
+          <!-- RED SOLID MEDIUM -->
+          <div data-base="brown" data-colour="redsolidmedium" data-rarity="common" data-class="custom">Brown</div>
+          <div data-base="locust" data-colour="redsolidmedium" data-rarity="common" data-class="applicator">Locust</div>
+          <div data-base="mahogany" data-colour="redsolidmedium" data-rarity="common" data-class="custom">Mahogany</div>
+          <div data-base="sienna" data-colour="redsolidmedium" data-rarity="common" data-class="custom">Sienna</div>
+          <div data-base="red" data-colour="redsolidmedium" data-rarity="rare" data-class="breedonly">Red</div>
+          <div data-base="umber" data-colour="redsolidmedium" data-rarity="rare" data-class="breedonly">Umber</div>
+          <div data-base="blushrose" data-colour="redsolidmedium" data-rarity="special" data-class="applicator">Blush Rose</div>
+          <div data-base="protea" data-colour="redsolidmedium" data-rarity="special" data-class="applicator">Protea</div>
+          <div data-base="rosegold" data-colour="redsolidmedium" data-rarity="special" data-class="combo">Rose Gold</div>
+          <div data-base="sepia" data-colour="redsolidmedium" data-rarity="special" data-class="breedonly">Sepia</div>
+          <div data-base="seth" data-colour="redsolidmedium" data-rarity="special" data-class="applicator">Seth</div>
+          <div data-base="windfall" data-colour="redsolidmedium" data-rarity="special" data-class="applicator">Windfall</div>
+          <!-- RED SOLID LIGHT -->
+          <div data-base="cedar" data-colour="redsolidlight" data-rarity="common" data-class="custom">Cedar</div>
+          <div data-base="cremello" data-colour="redsolidlight" data-rarity="common" data-class="custom">Cremello</div>
+          <div data-base="fallow" data-colour="redsolidlight" data-rarity="common" data-class="custom">Fallow</div>
+          <div data-base="sandy" data-colour="redsolidlight" data-rarity="common" data-class="custom">Sandy</div>
+          <div data-base="wildrose" data-colour="redsolidlight" data-rarity="common" data-class="custom">Wild Rose</div>
+          <div data-base="cinnabar" data-colour="redsolidlight" data-rarity="rare" data-class="breedonly">Cinnabar</div>
+          <div data-base="sapela" data-colour="redsolidlight" data-rarity="rare" data-class="breedonly">Sapela</div>
+          <div data-base="ardor" data-colour="redsolidlight" data-rarity="special" data-class="applicator">Ardor</div>
+          <div data-base="decennial" data-colour="redsolidlight" data-rarity="special" data-class="applicator">Decennial</div>
+          <div data-base="orchid" data-colour="redsolidlight" data-rarity="special" data-class="applicator">Orchid</div>
+          <div data-base="rainbow" data-colour="redsolidlight" data-rarity="special" data-class="applicator">Rainbow</div>
+          <div data-base="rosepink" data-colour="redsolidlight" data-rarity="special" data-class="applicator">Rose Pink</div>
+          <div data-base="serruria" data-colour="redsolidlight" data-rarity="special" data-class="combo">Serruria</div>
+          <div data-base="ubaste" data-colour="redsolidlight" data-rarity="special" data-class="custom">applicator</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- FEMALE TRAITS -->
+<div class="male-traits">
+  <h3>Female</h3>
+  <!-- BASE TRAITS -->
+  <div class="base-traits">
+    <h3 class="base-header">
+      Base Traits
+      <button class="collapse-btn" onclick="toggleBaseTraits()">▾</button>
+    </h3>
+    <div class="base-traits-slots" id="baseTraitsSlots">
+
+      <!-- Base -->
+      <div class="trait-slot">
+        <label>Base</label>
+        <button type="button" class="star-btn" onclick="toggleStar(this)">☆</button>
+        <input type="text" placeholder="Base" oninput="filterDropdown(this, 'baseOptions')" onclick="showDropdown(this, 'baseOptions')">
+        <div class="dropdown-options" id="baseOptions">
+          <!-- BLACK COUNTERSHADE DARK -->
+          <div data-base="black" data-colour="blackcountershadedark" data-rarity="common" data-class="custom">Black</div>
+          <div data-base="dikela" data-colour="blackcountershadedark" data-rarity="common" data-class="custom">Dikela</div>
+          <div data-base="gray" data-colour="blackcountershadedark" data-rarity="common" data-class="custom">Gray</div>
+          <div data-base="pewter" data-colour="blackcountershadedark" data-rarity="common" data-class="custom">Pewter</div>
+          <div data-base="vandal" data-colour="blackcountershadedark" data-rarity="common" data-class="custom">Vandal</div>
+          <div data-base="gunmetalgray" data-colour="blackcountershadedark" data-rarity="uncommon" data-class="custom">Gunmetal Gray</div>
+          <div data-base="korat" data-colour="blackcountershadedark" data-rarity="uncommon" data-class="custom">Korat</div>
+          <div data-base="cimmerian" data-colour="blackcountershadedark" data-rarity="rare" data-class="breedonly">Cimmerian</div>
+          <div data-base="slate" data-colour="blackcountershadedark" data-rarity="rare" data-class="custom">Slate</div>
+          <div data-base="augur" data-colour="blackcountershadedark" data-rarity="special" data-class="applicator">Augur</div>
+          <div data-base="celestial" data-colour="blackcountershadedark" data-rarity="special" data-class="breedonly">Celestial</div>
+          <div data-base="constellation" data-colour="blackcountershadedark" data-rarity="special" data-class="combo">Constellation</div>
+          <div data-base="divine" data-colour="blackcountershadeddark" data-rarity="special" data-class="applicator">Divine</div>
+          <div data-base="elysian" data-colour="blackcountershadeddark" data-rarity="special" data-class="combo">Elysian</div>
+          <div data-base="ice" data-colour="blackcountershadeddark" data-rarity="special" data-class="applicator">Ice</div>
+          <div data-base="jellyfish" data-colour="blackcountershadeddark" data-rarity="special" data-class="breedonly">Jellyfish</div>
+          <div data-base="penumbra" data-colour="blackcountershadeddark" data-rarity="special" data-class="applicator">Penumbra</div>
+          <div data-base="ra" data-colour="blackcountershadeddark" data-rarity="special" data-class="combo">Ra</div>
+          <div data-base="shard" data-colour="blackcountershadeddark" data-rarity="special" data-class="applicator">Shard</div>
+          <div data-base="witch" data-colour="blackcountershadeddark" data-rarity="special" data-class="combo">Witch</div>  
+          <!-- BLACK COUNTERSHADE MEDIUM -->
+          <div data-base="dun" data-colour="blackcountershademedium" data-rarity="common" data-class="custom">Dun</div>
+          <div data-base="steele" data-colour="blackcountershademedium" data-rarity="common" data-class="custom">Steele</div>
+          <div data-base="sterling" data-colour="blackcountershademedium" data-rarity="common" data-class="custom">Sterling</div>
+          <div data-base="maltese" data-colour="blackcountershademedium" data-rarity="uncommon" data-class="custom">Maltese</div>
+          <div data-base="cocoa" data-colour="blackcountershademedium" data-rarity="rare" data-class="breedonly">Cocoa</div>
+          <div data-base="desolate" data-colour="blackcountershademedium" data-rarity="rare" data-class="breedonly">Desolate</div>
+          <div data-base="arctic" data-colour="blackcountershademedium" data-rarity="special" data-class="applicator">Arctic</div>
+          <div data-base="aufeis" data-colour="blackcountershademedium" data-rarity="special" data-class="applicator">Aufeis</div>
+          <div data-base="bluepoinsettia" data-colour="blackcountershademedium" data-rarity="special" data-class="applicator">Blue Poinsettia</div>
+          <div data-base="cottoncandy" data-colour="blackcountershademedium" data-rarity="special" data-class="applicator">Cotton Candy</div>
+          <div data-base="cloudburst" data-colour="blackcountershademedium" data-rarity="special" data-class="combo">Cloudburst</div>
+          <div data-base="ennead" data-colour="blackcountershademedium" data-rarity="special" data-class="combo">Ennead</div>
+          <div data-base="hematite" data-colour="blackcountershademedium" data-rarity="special" data-class="applicator">Hematite</div>
+          <div data-base="hoarfrost" data-colour="blackcountershademedium" data-rarity="special" data-class="combo">Hoarfrost</div>
+          <div data-base="leonid" data-colour="blackcountershademedium" data-rarity="special" data-class="breedonly">Leonid</div>
+          <div data-base="moonstone" data-colour="blackcountershademedium" data-rarity="special" data-class="applicator">Moonstone</div>
+          <div data-base="murk" data-colour="blackcountershademedium" data-rarity="special" data-class="applicator">Murk</div>
+          <div data-base="rime" data-colour="blackcountershademedium" data-rarity="special" data-class="combo">Rime</div>
+          <div data-base="sidereal" data-colour="blackcountershademedium" data-rarity="special" data-class="breedonly">Sidereal</div>
+          <div data-base="zombie" data-colour="blackcountershademedium" data-rarity="special" data-class="applicator">Zombie</div>
+          <!-- BLACK COUNTERSHADE LIGHT -->
+          <div data-base="dovegray" data-colour="blackcountershadelight" data-rarity="common" data-class="custom">Dove Gray</div>
+          <div data-base="dusty" data-colour="blackcountershadelight" data-rarity="common" data-class="custom">Dusty</div>
+          <div data-base="rosybrown" data-colour="blackcountershadelight" data-rarity="common" data-class="custom">Rosy Brown</div>
+          <div data-base="silvergray" data-colour="blackcountershadelight" data-rarity="common" data-class="custom">Silver Gray</div>
+          <div data-base="chartreux" data-colour="blackcountershadelight" data-rarity="rare" data-class="breedonly">Chartreux</div>
+          <div data-base="snowpard" data-colour="blackcountershadelight" data-rarity="rare" data-class="breedonly">Snowpard</div>
+          <div data-base="glacial" data-colour="blackcountershadelight" data-rarity="special" data-class="applicator">Glacial</div>
+          <div data-base="kunzite" data-colour="blackcountershadelight" data-rarity="special" data-class="applicator">Kunzite</div>
+          <div data-base="mistletoe" data-colour="blackcountershadelight" data-rarity="special" data-class="combo">Mistletoe</div>
+          <div data-base="opal" data-colour="blackcountershadelight" data-rarity="special" data-class="applicator">Opal</div>
+          <div data-base="pulsar" data-colour="blackcountershadelight" data-rarity="special" data-class="combo">Pulsar</div>
+          <div data-base="skyward" data-colour="blackcountershadelight" data-rarity="special" data-class="breedonly">Skyward</div>
+          <div data-base="snowflake" data-colour="blackcountershadelight" data-rarity="special" data-class="combo">Snowflake</div>
+          <div data-base="soul" data-colour="blackcountershadelight" data-rarity="special" data-class="combo">Soul</div>
+          <div data-base="stratosphere" data-colour="blackcountershadelight" data-rarity="special" data-class="breedonly">Stratosphere</div>
+          <!-- BLACK SOLID DARK -->
+          <div data-base="chestnut" data-colour="blacksoliddark" data-rarity="common" data-class="custom">Chestnut</div>
+          <div data-base="jet" data-colour="blacksoliddark" data-rarity="common" data-class="custom">Jet</div>
+          <div data-base="obsidian" data-colour="blacksoliddark" data-rarity="common" data-class="custom">Obsidian</div>
+          <div data-base="titanium" data-colour="blacksoliddark" data-rarity="common" data-class="custom">Titanium</div>
+          <div data-base="onyx" data-colour="blacksoliddark" data-rarity="uncommon" data-class="custom">Onyx</div>
+          <div data-base="ebony" data-colour="blacksoliddark" data-rarity="rare" data-class="rare">Ebony</div>
+          <div data-base="noctis" data-colour="blacksoliddark" data-rarity="rare" data-class="rare">Noctis</div>
+          <div data-base="harbinger" data-colour="blacksoliddark" data-rarity="special" data-class="applicator">Harbinger</div>
+          <div data-base="haruspex" data-colour="blacksoliddark" data-rarity="special" data-class="applicator">Haruspex</div>
+          <div data-base="haze" data-colour="blacksoliddark" data-rarity="special" data-class="breedonly">Haze</div>
+          <div data-base="heh" data-colour="blacksoliddark" data-rarity="special" data-class="combo">Heh</div>
+          <div data-base="incense" data-colour="blacksoliddark" data-rarity="special" data-class="applicator">Incense</div>
+          <div data-base="interstellar" data-colour="blacksoliddark" data-rarity="special" data-class="applicator">Interstellar</div>
+          <div data-base="nadir" data-colour="blacksoliddark" data-rarity="special" data-class="combo">Nadir</div>
+          <div data-base="nun" data-colour="blacksoliddark" data-rarity="special" data-class="combo">Nun</div>
+          <div data-base="nuummite" data-colour="blacksoliddark" data-rarity="special" data-class="applicator">Nuummite</div>
+          <div data-base="spectre" data-colour="blacksoliddark" data-rarity="special" data-class="applicator">Spectre</div>
+          <div data-base="styx" data-colour="blacksoliddark" data-rarity="special" data-class="combo">Styx</div>
+          <div data-base="velvet" data-colour="blacksoliddark" data-rarity="special" data-class="applicator">Velvet</div>
+          <!-- BLACK SOLID MEDIUM -->
+          <div data-base="darkbrown" data-colour="blacksolidmedium" data-rarity="common" data-class="custom">Dark Brown</div>
+          <div data-base="liver" data-colour="blacksolidmedium" data-rarity="common" data-class="custom">Liver</div>
+          <div data-base="silver" data-colour="blacksolidmedium" data-rarity="common" data-class="custom">Silver</div>
+          <div data-base="flint" data-colour="blacksolidmedium" data-rarity="rare" data-class="breedonly">Flint</div>
+          <div data-base="platinum" data-colour="blacksolidmedium" data-rarity="rare" data-class="breedonly">Platinum</div>
+          <div data-base="basalt" data-colour="blacksolidmedium" data-rarity="special" data-class="combo">Basalt</div>
+          <div data-base="dapplegray" data-colour="blacksolidmedium" data-rarity="special" data-class="applicator">Dapple Gray</div>
+          <div data-base="demiurge" data-colour="blacksolidmedium" data-rarity="special" data-class="applicator">Demiurge</div>
+          <div data-base="duat" data-colour="blacksolidmedium" data-rarity="special" data-class="applicator">Duat</div>
+          <div data-base="frostbitten" data-colour="blacksolidmedium" data-rarity="special" data-class="applicator">Frostbitten</div>
+          <div data-base="incorporeal" data-colour="blacksolidmedium" data-rarity="special" data-class="applicator">Incorporeal</div>
+          <div data-base="lilac" data-colour="blacksolidmedium" data-rarity="special" data-class="breedonly">Lilac</div>
+          <div data-base="majivu" data-colour="blacksolidmedium" data-rarity="special" data-class="combo">Majivu</div>
+          <div data-base="medal" data-colour="blacksolidmedium" data-rarity="special" data-class="applicator">Medal</div>
+          <div data-base="nephthys" data-colour="blacksolidmedium" data-rarity="special" data-class="applicator">Nephthys</div>
+          <div data-base="rhino" data-colour="blacksolidmedium" data-rarity="special" data-class="applicator">Rhino</div>
+          <!-- BLACK SOLID LIGHT -->
+          <div data-base="albino" data-colour="blacksolidlight" data-rarity="common" data-class="custom">Albino</div>
+          <div data-base="birch" data-colour="blacksolidlight" data-rarity="common" data-class="custom">Birch</div>
+          <div data-base="eggshell" data-colour="blacksolidlight" data-rarity="common" data-class="custom">Eggshell</div>
+          <div data-base="isabel" data-colour="blacksolidlight" data-rarity="common" data-class="custom">Isabel</div>
+          <div data-base="white" data-colour="blacksolidlight" data-rarity="common" data-class="custom">White</div>
+          <div data-base="aspen" data-colour="blacksolidlight" data-rarity="uncommon" data-class="custom">Aspen</div>
+          <div data-base="clearwhite" data-colour="blacksolidlight" data-rarity="uncommon" data-class="custom">Clear White</div>
+          <div data-base="willow" data-colour="blacksolidlight" data-rarity="uncommon" data-class="custom">Willow</div>
+          <div data-base="ashen" data-colour="blacksolidlight" data-rarity="rare" data-class="breedonly">Ashen</div>
+          <div data-base="frost" data-colour="blacksolidlight" data-rarity="rare" data-class="breedonly">Frost</div>
+          <div data-base="cairngorm" data-colour="blacksolidlight" data-rarity="special" data-class="combo">Cairngorm</div>
+          <div data-base="celsian" data-colour="blacksolidlight" data-rarity="special" data-class="combo">Celsian</div>
+          <div data-base="glass" data-colour="blacksolidlight" data-rarity="special" data-class="applicator">Glass</div>
+          <div data-base="gleam" data-colour="blacksolidlight" data-rarity="special" data-class="combo">Gleam</div>
+          <div data-base="khnum" data-colour="blacksolidlight" data-rarity="special" data-class="applicator">Khnum</div>
+          <div data-base="opalescent" data-colour="blacksolidlight" data-rarity="special" data-class="breedonly">Opalescent</div>
+          <div data-base="phantom" data-colour="blacksolidlight" data-rarity="special" data-class="applicator">Phantom</div>
+          <div data-base="waterhyacinth" data-colour="blacksolidlight" data-rarity="special" data-class="applicator">Water Hyacinth</div>
+          <!-- CREAM COUNTERSHADE DARK -->
+          <div data-base="blonde" data-colour="creamcountershadedark" data-rarity="common" data-class="custom">Blonde</div>
+          <div data-base="dustyrose" data-colour="creamcountershadedark" data-rarity="common" data-class="custom">Dusty Rose</div>
+          <div data-base="pecan" data-colour="creamcountershadedark" data-rarity="common" data-class="custom">Pecan</div>
+          <div data-base="savannah" data-colour="creamcountershadedark" data-rarity="common" data-class="custom">Savannah</div>
+          <div data-base="russet" data-colour="creamcountershadedark" data-rarity="uncommon" data-class="custom">Russet</div>
+          <div data-base="flaxen" data-colour="creamcountershadedark" data-rarity="rare" data-class="breedonly">Flaxen</div>
+          <div data-base="senegal" data-colour="creamcountershadedark" data-rarity="rare" data-class="breedonly">Senegal</div>
+          <div data-base="arabica" data-colour="creamcountershadedark" data-rarity="special" data-class="combo">Arabica</div>
+          <div data-base="grullo" data-colour="creamcountershadedark" data-rarity="special" data-class="applicator">Grullo</div>
+          <div data-base="inpu" data-colour="creamcountershadedark" data-rarity="special" data-class="applicator">Inpu</div>
+          <div data-base="jacana" data-colour="creamcountershadedark" data-rarity="special" data-class="applicator">Jacana</div>
+          <div data-base="mossagate" data-colour="creamcountershadedark" data-rarity="special" data-class="applicator">Moss Agate</div>
+          <div data-base="mummy" data-colour="creamcountershadedark" data-rarity="special" data-class="applicator">Mummy</div>
+          <div data-base="nacre" data-colour="creamcountershadedark" data-rarity="special" data-class="applicator">Nacre</div>
+          <div data-base="nomad" data-colour="creamcountershadedark" data-rarity="special" data-class="breedonly">Nomad</div>
+          <div data-base="olive" data-colour="creamcountershadedark" data-rarity="special" data-class="combo">Olive</div>
+          <div data-base="outlaw" data-colour="creamcountershadedark" data-rarity="special" data-class="breedly">Outlaw</div>
+          <div data-base="reindeer" data-colour="creamcountershadedark" data-rarity="special" data-class="applicator">Reindeer</div>
+          <div data-base="supernal" data-colour="creamcountershadedark" data-rarity="special" data-class="applicator">Supernal</div>
+          <div data-base="thoth" data-colour="creamcountershadedark" data-rarity="special" data-class="applicator">Thoth</div>
+          <div data-base="vagabond" data-colour="creamcountershadedark" data-rarity="special" data-class="applicator">Vagabond</div>
+          <!-- CREAM COUNTERSHADE MEDIUM -->
+          <div data-base="darkvanilla" data-colour="creamcountershademedium" data-rarity="common" data-class="custom">Dark Vanilla</div>
+          <div data-base="deepfawn" data-colour="creamcountershademedium" data-rarity="common" data-class="custom">Deep Fawn</div>
+          <div data-base="hazelnut" data-colour="creamcountershademedium" data-rarity="common" data-class="custom">Hazelnut</div>
+          <div data-base="mongoose" data-colour="creamcountershademedium" data-rarity="common" data-class="custom">Mongoose</div>
+          <div data-base="cameo" data-colour="creamcountershademedium" data-rarity="rare" data-class="breedonly">Cameo</div>
+          <div data-base="finch" data-colour="creamcountershademedium" data-rarity="rare" data-class="breedonly">Finch</div>
+          <div data-base="aardwolf" data-colour="creamcountershademedium" data-rarity="special" data-class="applicator">Aardwolf</div>
+          <div data-base="ammonite" data-colour="creamcountershademedium" data-rarity="special" data-class="applicator">Ammonite</div>
+          <div data-base="asiatic" data-colour="creamcountershademedium" data-rarity="special" data-class="combo">Asiatic</div>
+          <div data-base="esker" data-colour="creamcountershademedium" data-rarity="special" data-class="combo">Esker</div>
+          <div data-base="fossil" data-colour="creamcountershademedium" data-rarity="special" data-class="applicator">Fossil</div>
+          <div data-base="guardian" data-colour="creamcountershademedium" data-rarity="special" data-class="applicator">Guardian</div>
+          <div data-base="hallowed" data-colour="creamcountershademedium" data-rarity="special" data-class="applicator">Hallowed</div>
+          <div data-base="jackal" data-colour="creamcountershademedium" data-rarity="special" data-class="applicator">Jackal</div>
+          <div data-base="mushroom" data-colour="creamcountershademedium" data-rarity="special" data-class="breedonly">Mushroom</div>
+          <div data-base="pecora" data-colour="creamcountershademedium" data-rarity="special" data-class="breedonly">Pecora</div>
+          <div data-base="ragdoll" data-colour="creamcountershademedium" data-rarity="special" data-class="applicator">Ragdoll</div>
+          <div data-base="smog" data-colour="creamcountershademedium" data-rarity="special" data-class="combo">Smog</div>
+          <!-- CREAM COUNTERSHADE LIGHT -->
+          <div data-base="almond" data-colour="creamcountershadelight" data-rarity="common" data-class="custom">Almond</div>
+          <div data-base="antler" data-colour="creamcountershadelight" data-rarity="common" data-class="custom">Antler</div>
+          <div data-base="vanilla" data-colour="creamcountershadelight" data-rarity="common" data-class="custom">Vanilla</div>
+          <div data-base="buff" data-colour="creamcountershadelight" data-rarity="rare" data-class="breedonly">Buff</div>
+          <div data-base="tusk" data-colour="creamcountershadelight" data-rarity="rare" data-class="breedonly">Tusk</div>
+          <div data-base="aether" data-colour="creamcountershadelight" data-rarity="special" data-class="combo">Aether</div>
+          <div data-base="cherryblossom" data-colour="creamcountershadelight" data-rarity="special" data-class="applicator">Cherry Blossom</div>
+          <div data-base="eggnog" data-colour="creamcountershadelight" data-rarity="special" data-class="applicator">Eggnog</div>
+          <div data-base="ethereal" data-colour="creamcountershadelight" data-rarity="special" data-class="applicator">Ethereal</div>
+          <div data-base="horizon" data-colour="creamcountershadelight" data-rarity="special" data-class="combo">Horizon</div>
+          <div data-base="howlite" data-colour="creamcountershadelight" data-rarity="special" data-class="applicator">Howlite</div>
+          <div data-base="ivory" data-colour="creamcountershadelight" data-rarity="special" data-class="applicator">Ivory</div>
+          <div data-base="nautilus" data-colour="creamcountershadelight" data-rarity="special" data-class="applicator">Nautilus</div>
+          <div data-base="skeletal" data-colour="creamcountershadelight" data-rarity="special" data-class="applicator">Skeletal</div>
+          <!-- CREAM SOLID DARK -->
+          <div data-base="caramel" data-colour="creamsoliddark" data-rarity="common" data-class="custom">Caramel</div>
+          <div data-base="khaki" data-colour="creamsoliddark" data-rarity="common" data-class="custom">Khaki</div>
+          <div data-base="persimmon" data-colour="creamsoliddark" data-rarity="common" data-class="custom">Persimmon</div>
+          <div data-base="tan" data-colour="creamsoliddark" data-rarity="common" data-class="custom">Tan</div>
+          <div data-base="butternut" data-colour="creamsoliddark" data-rarity="uncommon" data-class="custom">Butternut</div>
+          <div data-base="amber" data-colour="creamsoliddark" data-rarity="rare" data-class="breedonly">Amber</div>
+          <div data-base="soot" data-colour="creamsoliddark" data-rarity="rare" data-class="breedonly">Soot</div>
+          <div data-base="hellebore" data-colour="creamsoliddark" data-rarity="special" data-class="combo">Hellebore</div>
+          <div data-base="meteorite" data-colour="creamsoliddark" data-rarity="special" data-class="applicator">Meteorite</div>
+          <div data-base="parhelion" data-colour="creamsoliddark" data-rarity="special" data-class="applicator">Parhelion</div>
+          <div data-base="przewalski" data-colour="creamsoliddark" data-rarity="special" data-class="applicator">Przewalski</div>
+          <div data-base="qahir" data-colour="creamsoliddark" data-rarity="special" data-class="combo">Qahir</div>
+          <div data-base="seer" data-colour="creamsoliddark" data-rarity="special" data-class="applicator">Seer</div>
+          <!-- CREAM SOLID MEDIUM -->
+          <div data-base="camel" data-colour="creamsolidmedium" data-rarity="common" data-class="custom">Camel</div>
+          <div data-base="cream" data-colour="creamsolidmedium" data-rarity="common" data-class="custom">Cream</div>
+          <div data-base="creamdarker" data-colour="creamsolidmedium" data-rarity="common" data-class="custom">Cream Darker</div>
+          <div data-base="darkfawn" data-colour="creamsolidmedium" data-rarity="common" data-class="custom">Dark Fawn</div>
+          <div data-base="fawn" data-colour="creamsolidmedium" data-rarity="common" data-class="custom">Fawn</div>
+          <div data-base="argent" data-colour="creamsolidmedium" data-rarity="rare" data-class="breedonly">Argent</div>
+          <div data-base="buttercream" data-colour="creamsolidmedium" data-rarity="rare" data-class="breedonly">Buttercream</div>
+          <div data-base="atlas" data-colour="creamsolidmedium" data-rarity="special" data-class="applicator">Atlas</div>
+          <div data-base="heavenly" data-colour="creamsolidmedium" data-rarity="special" data-class="applicator">Heavenly</div>
+          <div data-base="pearl" data-colour="creamsolidmedium" data-rarity="special" data-class="breedonly">Pearl</div>
+          <div data-base="ruffian" data-colour="creamsolidmedium" data-rarity="special" data-class="breedonly">Ruffian</div>
+          <div data-base="sphinx" data-colour="creamsolidmedium" data-rarity="special" data-class="combo">Sphinx</div>
+          <!-- CREAM SOLID LIGHT -->
+          <div data-base="apricot" data-colour="creamsolidlight" data-rarity="common" data-class="custom">Apricot</div>
+          <div data-base="beige" data-colour="creamsolidlight" data-rarity="common" data-class="custom">Beige</div>
+          <div data-base="creamlighter" data-colour="creamsolidlight" data-rarity="common" data-class="custom">Cream Lighter</div>
+          <div data-base="lightcream" data-colour="creamsolidlight" data-rarity="common" data-class="custom">Light Cream</div>
+          <div data-base="buttermilk" data-colour="creamsolidlight" data-rarity="uncommon" data-class="custom">Buttermilk</div>
+          <div data-base="latte" data-colour="creamsolidlight" data-rarity="rare" data-class="breedonly">Latte</div>
+          <div data-base="teardrop" data-colour="creamsolidlight" data-rarity="rare" data-class="breedonly">Teardrop</div>
+          <div data-base="alabaster" data-colour="creamsolidlight" data-rarity="special" data-class="applicator">Alabaster</div>
+          <div data-base="citron" data-colour="creamsolidlight" data-rarity="special" data-class="applicator">Citron</div>
+          <div data-base="solaris" data-colour="creamsolidlight" data-rarity="special" data-class="applicator">Solaris</div>      
+          <!-- GOLDEN COUNTERSHADED DARK -->
+          <div data-base="deira" data-colour="goldencountershadeddark" data-rarity="common" data-class="custom">Deira</div>
+          <div data-base="doubloon" data-colour="goldencountershadeddark" data-rarity="common" data-class="custom">Doubloon</div>
+          <div data-base="jacinthe" data-colour="goldencountershadeddark" data-rarity="common" data-class="custom">Jacinthe</div>
+          <div data-base="ochre" data-colour="goldencountershadeddark" data-rarity="common" data-class="custom">Ochre</div>
+          <div data-base="dinar" data-colour="goldencountershadeddark" data-rarity="rare" data-class="breedonly">Dinar</div>
+          <div data-base="fulvous" data-colour="goldencountershadeddark" data-rarity="rare" data-class="breedonly">Fulvous</div>
+          <div data-base="abyssinian" data-colour="goldencountershadeddark" data-rarity="special" data-class="applicator">Abyssinian</div>
+          <div data-base="anubis" data-colour="goldencountershadeddark" data-rarity="special" data-class="applicator">Anubis</div>
+          <div data-base="asali" data-colour="goldencountershadeddark" data-rarity="special" data-class="nclexclusive">Asali</div>
+          <div data-base="cretaceous" data-colour="goldencountershadeddark" data-rarity="special" data-class="applicator">Cretaceous</div>
+          <div data-base="ember" data-colour="goldencountershadeddark" data-rarity="special" data-class="combo">Ember</div>
+          <div data-base="ganache" data-colour="goldencountershadeddark" data-rarity="special" data-class="combo">Ganache</div>
+          <div data-base="hyena" data-colour="goldencountershadeddark" data-rarity="special" data-class="applicator">Hyena</div>
+          <div data-base="kimanjano" data-colour="goldencountershadeddark" data-rarity="special" data-class="leopon">Kimanjano</div>
+          <div data-base="ripe" data-colour="goldencountershadeddark" data-rarity="special" data-class="breedonly">Ripe</div>
+          <div data-base="swarm" data-colour="goldencountershadeddark" data-rarity="special" data-class="applicator">Swarm</div>
+          <!-- GOLDEN COUNTERSHADED MEDIUM -->
+          <div data-base="ducat" data-colour="goldencountershadedmedium" data-rarity="common" data-class="custom">Ducat</div>
+          <div data-base="oatmeal" data-colour="goldencountershadedmedium" data-rarity="common" data-class="custom">Oatmeal</div>
+          <div data-base="saffron" data-colour="goldencountershadedmedium" data-rarity="common" data-class="custom">Saffron</div>
+          <div data-base="sunflower" data-colour="goldencountershadedmedium" data-rarity="common" data-class="custom">Sunflower</div>
+          <div data-base="goridhe" data-colour="goldencountershadedmedium" data-rarity="rare" data-class="breedonly">Goridhe</div>
+          <div data-base="nacarat" data-colour="goldencountershadedmedium" data-rarity="rare" data-class="breedonly">Nacarat</div>
+          <div data-base="ailurus" data-colour="goldencountershadedmedium" data-rarity="special" data-class="combo">Ailurus</div>
+          <div data-base="bast" data-colour="goldencountershadedmedium" data-rarity="special" data-class="applicator">Bast</div>
+          <div data-base="bushveld" data-colour="goldencountershadedmedium" data-rarity="special" data-class="breedonly">Bushveld</div>
+          <div data-base="cabochon" data-colour="goldencountershadedmedium" data-rarity="special" data-class="applicator">Cabochon</div>
+          <div data-base="dhahabi" data-colour="goldencountershadedmedium" data-rarity="special" data-class="nclexclusive">Dhahabi</div>
+          <div data-base="hirola" data-colour="goldencountershadedmedium" data-rarity="special" data-class="applicator">Hirola</div>
+          <div data-base="mandarin" data-colour="goldencountershadedmedium" data-rarity="special" data-class="tigon">Mandarin</div>
+          <div data-base="maziwa" data-colour="goldencountershadedmedium" data-rarity="special" data-class="nclexclusive">Maziwa</div>
+          <div data-base="sepulture" data-colour="goldencountershadedmedium" data-rarity="special" data-class="applicator">Sepulture</div>
+          <div data-base="sunspot" data-colour="goldencountershadedmedium" data-rarity="special" data-class="breedonly">Sunspot</div>
+          <div data-base="wither" data-colour="goldencountershadedmedium" data-rarity="special" data-class="breedonly">Wither</div>
+          <div data-base="zloto" data-colour="goldencountershadedmedium" data-rarity="special" data-class="combo">Zloto</div>
+          <!-- GOLDEN COUNTERSHADED LIGHT -->
+          <div data-base="bisquit" data-colour="goldencountershadedlight" data-rarity="common" data-class="custom">Bisquit</div>
+          <div data-base="bone" data-colour="goldencountershadedlight" data-rarity="common" data-class="custom">Bone</div>
+          <div data-base="sunglow" data-colour="goldencountershadedlight" data-rarity="common" data-class="custom">Sunglow</div>
+          <div data-base="wheaten" data-colour="goldencountershadedlight" data-rarity="common" data-class="custom">Wheaten</div>
+          <div data-base="champagne" data-colour="goldencountershadedlight" data-rarity="rare" data-class="breedonly">Champagne</div>
+          <div data-base="powder" data-colour="goldencountershadedlight" data-rarity="rare" data-class="breedonly">Powder</div>
+          <div data-base="angelic" data-colour="goldencountershadedlight" data-rarity="special" data-class="applicator">Angelic</div>
+          <div data-base="citrine" data-colour="goldencountershadedlight" data-rarity="special" data-class="combo">Citrine</div>
+          <div data-base="haliotis" data-colour="goldencountershadedlight" data-rarity="special" data-class="applicator">Haliotis</div>
+          <div data-base="horus" data-colour="goldencountershadedlight" data-rarity="special" data-class="applicator">Horus</div>
+          <div data-base="maat" data-colour="goldencountershadedlight" data-rarity="special" data-class="applicator">Maat</div>
+          <div data-base="nudar" data-colour="goldencountershadedlight" data-rarity="special" data-class="breedonly">Nudar</div>
+          <div data-base="peach" data-colour="goldencountershadedlight" data-rarity="special" data-class="applicator">Peach</div>
+          <div data-base="triumph" data-colour="goldencountershadedlight" data-rarity="special" data-class="applicator">Triumph</div>
+          <!-- GOLDEN SOLID DARK -->
+          <div data-base="darkgolden" data-colour="goldensoliddark" data-rarity="common" data-class="custom">Dark Golden</div>
+          <div data-base="zarafshan" data-colour="goldensoliddark" data-rarity="common" data-class="custom">Zarafshan</div>
+          <div data-base="zarbanu" data-colour="goldensoliddark" data-rarity="common" data-class="custom">Zarbanu</div>
+          <div data-base="xanthic" data-colour="goldensoliddark" data-rarity="uncommon" data-class="custom">Xanthic</div>
+          <div data-base="honey" data-colour="goldensoliddark" data-rarity="rare" data-class="breedonly">Honey</div>
+          <div data-base="udara" data-colour="goldensoliddark" data-rarity="rare" data-class="breedonly">Udara</div>
+          <div data-base="chatoyant" data-colour="goldensoliddark" data-rarity="special" data-class="applicator">Chatoyant</div>
+          <div data-base="damu" data-colour="goldensoliddark" data-rarity="special" data-class="breedonly">Damu</div>
+          <div data-base="mudstone" data-colour="goldensoliddark" data-rarity="special" data-class="combo">Mudstone</div>
+          <div data-base="ornament" data-colour="goldensoliddark" data-rarity="special" data-class="applicator">Ornament</div>
+          <div data-base="protostar" data-colour="goldensoliddark" data-rarity="special" data-class="breedonly">Protostar</div>
+          <div data-base="sarcophagus" data-colour="goldensoliddark" data-rarity="special" data-class="applicator">Sarcophagus</div>
+          <div data-base="trophy" data-colour="goldensoliddark" data-rarity="special" data-class="applicator">Trophy</div>
+          <!-- GOLDEN SOLID MEDIUM -->
+          <div data-base="luteo" data-colour="goldensolidmedium" data-rarity="common" data-class="custom">Luteo</div>
+          <div data-base="mediumgolden" data-colour="goldensolidmedium" data-rarity="common" data-class="custom">Medium Golden</div>
+          <div data-base="sundust" data-colour="goldensolidmedium" data-rarity="common" data-class="custom">Sundust</div>
+          <div data-base="zarasa" data-colour="goldensolidmedium" data-rarity="common" data-class="custom">Zarasa</div>
+          <div data-base="zarin" data-colour="goldensolidmedium" data-rarity="common" data-class="custom">Zarin</div>
+          <div data-base="topaz" data-colour="goldensolidmedium" data-rarity="uncommon" data-class="custom">Topaz</div>
+          <div data-base="dandelion" data-colour="goldensolidmedium" data-rarity="rare" data-class="breedonly">Dandelion</div>
+          <div data-base="goldenrod" data-colour="goldensolidmedium" data-rarity="rare" data-class="breedonly">Goldenrod</div>
+          <div data-base="gilded" data-colour="goldensolidmedium" data-rarity="special" data-class="combo">Gilded</div>
+          <div data-base="green" data-colour="goldensolidmedium" data-rarity="special" data-class="applicator">Green</div>
+          <div data-base="gregarious" data-colour="goldensolidmedium" data-rarity="special" data-class="applicator">Gregarious</div>
+          <div data-base="labradorite" data-colour="goldensolidmedium" data-rarity="special" data-class="applicator">Labradorite</div>
+          <div data-base="mobola" data-colour="goldensolidmedium" data-rarity="special" data-class="nclexclusive">Mobola</div>
+          <div data-base="sahara" data-colour="goldensolidmedium" data-rarity="special" data-class="breedonly">Sahara</div>
+          <div data-base="victor" data-colour="goldensolidmedium" data-rarity="special" data-class="applicator">Victor</div>
+          <!-- GOLDEN SOLID LIGHT -->
+          <div data-base="bisque" data-colour="goldensolidlight" data-rarity="common" data-class="custom">Bisque</div>
+          <div data-base="lemon" data-colour="goldensolidlight" data-rarity="common" data-class="custom">Lemon</div>
+          <div data-base="lightgolden" data-colour="goldensolidlight" data-rarity="common" data-class="custom">Light Golden</div>
+          <div data-base="linen" data-colour="goldensolidlight" data-rarity="common" data-class="custom">Linen</div>
+          <div data-base="zer" data-colour="goldensolidlight" data-rarity="common" data-class="custom">Zer</div>
+          <div data-base="zivar" data-colour="goldensolidlight" data-rarity="common" data-class="custom">Zivar</div>
+          <div data-base="sunshine" data-colour="goldensolidlight" data-rarity="uncommon" data-class="custom">Sunshine</div>
+          <div data-base="sulphur" data-colour="goldensolidlight" data-rarity="rare" data-class="breedonly">Sulphur</div>
+          <div data-base="sunkissed" data-colour="goldensolidlight" data-rarity="rare" data-class="breedonly">Sunkissed</div>
+          <div data-base="festive" data-colour="goldensolidlight" data-rarity="special" data-class="applicator">Festive</div>
+          <div data-base="harvestmoon" data-colour="goldensolidlight" data-rarity="special" data-class="applicator">Harvest Moon</div>
+          <div data-base="hexaplex" data-colour="goldensolidlight" data-rarity="special" data-class="combo">Hexaplex</div>
+          <div data-base="marula" data-colour="goldensolidlight" data-rarity="special" data-class="applicator">Marula</div>
+          <div data-base="ukame" data-colour="goldensolidlight" data-rarity="special" data-class="breedonly">Ukame</div>      
+          <!-- RED COUNTERSHADED DARK -->
+          <div data-base="auburn" data-colour="redcountershadeddark" data-rarity="common" data-class="custom">Auburn</div>
+          <div data-base="brass" data-colour="redcountershadeddark" data-rarity="common" data-class="custom">Brass</div>
+          <div data-base="bronze" data-colour="redcountershadeddark" data-rarity="common" data-class="custom">Bronze</div>
+          <div data-base="mulberry" data-colour="redcountershadeddark" data-rarity="common" data-class="custom">Mulberry</div>
+          <div data-base="ruddy" data-colour="redcountershadeddark" data-rarity="common" data-class="custom">Ruddy</div>
+          <div data-base="cassis" data-colour="redcountershadeddark" data-rarity="rare" data-class="breedonly">Cassis</div>
+          <div data-base="prune" data-colour="redcountershadeddark" data-rarity="rare" data-class="breedonly">Prune</div>
+          <div data-base="ambrosia" data-colour="redcountershadeddark" data-rarity="special" data-class="breedonly">Ambrosia</div>
+          <div data-base="ater" data-colour="redcountershadeddark" data-rarity="special" data-class="combo">Ater</div>
+          <div data-base="beet" data-colour="redcountershadeddark" data-rarity="special" data-class="breedonly">Beet</div>
+          <div data-base="demonic" data-colour="redcountershadeddark" data-rarity="special" data-class="applicator">Demonic</div>
+          <div data-base="haunted" data-colour="redcountershadeddark" data-rarity="special" data-class="applicator">Haunted</div>
+          <div data-base="madagascar" data-colour="redcountershadeddark" data-rarity="special" data-class="combo">Madagascar</div>
+          <div data-base="nether" data-colour="redcountershadeddark" data-rarity="special" data-class="combo">Nether</div>
+          <div data-base="rhodonite" data-colour="redcountershadeddark" data-rarity="special" data-class="applicator">Rhodonite</div>
+          <div data-base="roughruby" data-colour="redcountershadeddark" data-rarity="special" data-class="applicator">Rough Ruby</div>
+          <div data-base="temporal" data-colour="redcountershadeddark" data-rarity="special" data-class="combo">Temporal</div>
+          <div data-base="unholy" data-colour="redcountershadeddark" data-rarity="special" data-class="applicator">Unholy</div>
+          <div data-base="wepwawet" data-colour="redcountershadeddark" data-rarity="special" data-class="applicator">Wepwawet</div>
+          <!-- RED COUNTERSHADED MEDIUM -->
+          <div data-base="ginger" data-colour="redcountershadedmedium" data-rarity="common" data-class="custom">Ginger</div>
+          <div data-base="mauve" data-colour="redcountershadedmedium" data-rarity="common" data-class="custom">Mauve</div>
+          <div data-base="rust" data-colour="redcountershadedmedium" data-rarity="common" data-class="custom">Rust</div>
+          <div data-base="rhubarb" data-colour="redcountershadedmedium" data-rarity="uncommon" data-class="custom">Rhubarb</div>
+          <div data-base="anjeer" data-colour="redcountershadedmedium" data-rarity="rare" data-class="breedonly">Anjeer</div>
+          <div data-base="scallop" data-colour="redcountershadedmedium" data-rarity="rare" data-class="breedonly">Scallop</div>
+          <div data-base="ankh" data-colour="redcountershadedmedium" data-rarity="special" data-class="applicator">Ankh</div>
+          <div data-base="brimstone" data-colour="redcountershadedmedium" data-rarity="special" data-class="applicator">Brimstone</div>
+          <div data-base="chaos" data-colour="redcountershadedmedium" data-rarity="special" data-class="applicator">Chaos</div>
+          <div data-base="deshret" data-colour="redcountershadedmedium" data-rarity="special" data-class="applicator">Deshret</div>
+          <div data-base="hibiscus" data-colour="redcountershadedmedium" data-rarity="special" data-class="applicator">Hibiscus</div>
+          <div data-base="inferno" data-colour="redcountershadedmedium" data-rarity="special" data-class="applicator">Inferno</div>
+          <div data-base="ogdoad" data-colour="redcountershadedmedium" data-rarity="special" data-class="combo">Ogdoad</div>
+          <div data-base="progenitor" data-colour="redcountershadedmedium" data-rarity="special" data-class="piety">Progenitor</div>
+          <div data-base="scoundrel" data-colour="redcountershadedmedium" data-rarity="special" data-class="breedonly">Scoundrel</div>
+          <div data-base="squall" data-colour="redcountershadedmedium" data-rarity="special" data-class="combo">Squall</div>
+          <div data-base="sunset" data-colour="redcountershadedmedium" data-rarity="special" data-class="breedonly">Sunset</div>
+          <div data-base="wine" data-colour="redcountershadedmedium" data-rarity="special" data-class="breedonly">Wine</div>
+          <!-- RED COUNTERSHADED LIGHT -->
+          <div data-base="copper" data-colour="redcountershadedlight" data-rarity="common" data-class="custom">Copper</div>
+          <div data-base="palomino" data-colour="redcountershadedlight" data-rarity="common" data-class="custom">Palomino</div>
+          <div data-base="sorrel" data-colour="redcountershadedlight" data-rarity="common" data-class="custom">Sorrel</div>
+          <div data-base="tawny" data-colour="redcountershadedlight" data-rarity="common" data-class="custom">Tawny</div>
+          <div data-base="rufous" data-colour="redcountershadedlight" data-rarity="uncommon" data-class="custom">Rufous</div>
+          <div data-base="fiery" data-colour="redcountershadedlight" data-rarity="rare" data-class="breedonly">Fiery</div>
+          <div data-base="maroon" data-colour="redcountershadedlight" data-rarity="rare" data-class="breedonly">Maroon</div>
+          <div data-base="taupe" data-colour="redcountershadedlight" data-rarity="rare" data-class="breedonly">Taupe</div>
+          <div data-base="ancestral" data-colour="redcountershadedlight" data-rarity="special" data-class="applicator">Ancestral</div>
+          <div data-base="astral" data-colour="redcountershadedlight" data-rarity="special" data-class="applicator">Astral</div>
+          <div data-base="azalea" data-colour="redcountershadedlight" data-rarity="special" data-class="applicator">Azalea</div>
+          <div data-base="bandit" data-colour="redcountershadedlight" data-rarity="special" data-class="breedonly">Bandit</div>
+          <div data-base="blazing" data-colour="redcountershadedlight" data-rarity="special" data-class="applicator">Blazing</div>
+          <div data-base="dawn" data-colour="redcountershadedlight" data-rarity="special" data-class="breedonly">Dawn</div>
+          <div data-base="drupa" data-colour="redcountershadedlight" data-rarity="special" data-class="applicator">Drupa</div>
+          <div data-base="flamingo" data-colour="redcountershadedlight" data-rarity="special" data-class="applicator">Flamingo</div>
+          <div data-base="fuchsia" data-colour="redcountershadedlight" data-rarity="special" data-class="applicator">Fuchsia</div>
+          <div data-base="iris" data-colour="redcountershadedlight" data-rarity="special" data-class="breedonly">Iris</div>
+          <div data-base="lotus" data-colour="redcountershadedlight" data-rarity="special" data-class="applicator">Lotus</div>
+          <div data-base="nefer" data-colour="redcountershadedlight" data-rarity="special" data-class="applicator">Nefer</div>
+          <div data-base="sunrise" data-colour="redcountershadedlight" data-rarity="special" data-class="breedonly">Sunrise</div>
+          <div data-base="sutekh" data-colour="redcountershadedlight" data-rarity="special" data-class="applicator">Sutekh</div>
+          <!-- RED SOLID DARK -->
+          <div data-base="chocolate" data-colour="redsoliddark" data-rarity="common" data-class="custom">Chocolate</div>
+          <div data-base="henna" data-colour="redsoliddark" data-rarity="common" data-class="custom">Henna</div>
+          <div data-base="redwood" data-colour="redsoliddark" data-rarity="common" data-class="custom">Redwood</div>
+          <div data-base="acacia" data-colour="redsoliddark" data-rarity="rare" data-class="breedonly">Acacia</div>
+          <div data-base="shedua" data-colour="redsoliddark" data-rarity="rare" data-class="breedonly">Shedua</div>
+          <div data-base="blackrose" data-colour="redsoliddark" data-rarity="special" data-class="combo">Black Rose</div>
+          <div data-base="bloodmoon" data-colour="redsoliddark" data-rarity="special" data-class="applicator">Blood Moon</div>
+          <div data-base="bloodbourne" data-colour="redsoliddark" data-rarity="special" data-class="applicator">Bloodbourne</div>
+          <div data-base="bloodstone" data-colour="redsoliddark" data-rarity="special" data-class="applicator">Bloodstone</div>
+          <div data-base="manakbir" data-colour="redsoliddark" data-rarity="special" data-class="applicator">Manakbir</div>
+          <div data-base="manticore" data-colour="redsoliddark" data-rarity="special" data-class="applicator">Manticore</div>
+          <div data-base="merlot" data-colour="redsoliddark" data-rarity="special" data-class="applicator">Merlot</div>
+          <div data-base="plague" data-colour="redsoliddark" data-rarity="special" data-class="combo">Plague</div>
+          <div data-base="prismatic" data-colour="redsoliddark" data-rarity="special" data-class="breedonly">Prismatic</div>
+          <div data-base="sha" data-colour="redsoliddark" data-rarity="special" data-class="applicator">Sha</div>
+          <div data-base="wicked" data-colour="redsoliddark" data-rarity="special" data-class="applicator">Wicked</div>
+          <!-- RED SOLID MEDIUM -->
+          <div data-base="brown" data-colour="redsolidmedium" data-rarity="common" data-class="custom">Brown</div>
+          <div data-base="locust" data-colour="redsolidmedium" data-rarity="common" data-class="applicator">Locust</div>
+          <div data-base="mahogany" data-colour="redsolidmedium" data-rarity="common" data-class="custom">Mahogany</div>
+          <div data-base="sienna" data-colour="redsolidmedium" data-rarity="common" data-class="custom">Sienna</div>
+          <div data-base="red" data-colour="redsolidmedium" data-rarity="rare" data-class="breedonly">Red</div>
+          <div data-base="umber" data-colour="redsolidmedium" data-rarity="rare" data-class="breedonly">Umber</div>
+          <div data-base="blushrose" data-colour="redsolidmedium" data-rarity="special" data-class="applicator">Blush Rose</div>
+          <div data-base="protea" data-colour="redsolidmedium" data-rarity="special" data-class="applicator">Protea</div>
+          <div data-base="rosegold" data-colour="redsolidmedium" data-rarity="special" data-class="combo">Rose Gold</div>
+          <div data-base="sepia" data-colour="redsolidmedium" data-rarity="special" data-class="breedonly">Sepia</div>
+          <div data-base="seth" data-colour="redsolidmedium" data-rarity="special" data-class="applicator">Seth</div>
+          <div data-base="windfall" data-colour="redsolidmedium" data-rarity="special" data-class="applicator">Windfall</div>
+          <!-- RED SOLID LIGHT -->
+          <div data-base="cedar" data-colour="redsolidlight" data-rarity="common" data-class="custom">Cedar</div>
+          <div data-base="cremello" data-colour="redsolidlight" data-rarity="common" data-class="custom">Cremello</div>
+          <div data-base="fallow" data-colour="redsolidlight" data-rarity="common" data-class="custom">Fallow</div>
+          <div data-base="sandy" data-colour="redsolidlight" data-rarity="common" data-class="custom">Sandy</div>
+          <div data-base="wildrose" data-colour="redsolidlight" data-rarity="common" data-class="custom">Wild Rose</div>
+          <div data-base="cinnabar" data-colour="redsolidlight" data-rarity="rare" data-class="breedonly">Cinnabar</div>
+          <div data-base="sapela" data-colour="redsolidlight" data-rarity="rare" data-class="breedonly">Sapela</div>
+          <div data-base="ardor" data-colour="redsolidlight" data-rarity="special" data-class="applicator">Ardor</div>
+          <div data-base="decennial" data-colour="redsolidlight" data-rarity="special" data-class="applicator">Decennial</div>
+          <div data-base="orchid" data-colour="redsolidlight" data-rarity="special" data-class="applicator">Orchid</div>
+          <div data-base="rainbow" data-colour="redsolidlight" data-rarity="special" data-class="applicator">Rainbow</div>
+          <div data-base="rosepink" data-colour="redsolidlight" data-rarity="special" data-class="applicator">Rose Pink</div>
+          <div data-base="serruria" data-colour="redsolidlight" data-rarity="special" data-class="combo">Serruria</div>
+          <div data-base="ubaste" data-colour="redsolidlight" data-rarity="special" data-class="custom">applicator</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+// Collapsible
+function toggleBaseTraits() {
+  const container = document.querySelector(".base-traits");
+  const slots = document.getElementById("baseTraitsSlots");
+  const btn = container.querySelector(".collapse-btn");
+
+  if (!slots.style.display || slots.style.display === "flex") {
+    slots.style.display = "none";
+    container.style.paddingBottom = "0";
+    btn.textContent = "▸";
+  } else {
+    slots.style.display = "flex";
+    container.style.paddingBottom = "10px";
+    btn.textContent = "▾";
+  }
+}
+
+// Dropdown
+function showDropdown(input, dropdownId) {
+  const dropdown = document.getElementById(dropdownId);
+  const rect = input.getBoundingClientRect();
+  const parentRect = input.offsetParent.getBoundingClientRect();
+
+  dropdown.style.position = 'absolute';
+  dropdown.style.top = (input.offsetTop + input.offsetHeight) + "px";
+  dropdown.style.left = input.offsetLeft + "px";
+  dropdown.style.width = input.offsetWidth + "px";
+  dropdown.style.display = "block";
+}
+
+function filterDropdown(input, dropdownId) {
+  const filter = input.value.toLowerCase();
+  const dropdown = document.getElementById(dropdownId);
+  let anyVisible = false;
+
+  Array.from(dropdown.children).forEach(option => {
+    const match = option.textContent.toLowerCase().includes(filter);
+    option.style.display = match ? "block" : "none";
+    if (match) anyVisible = true;
+  });
+
+  dropdown.style.display = anyVisible ? "block" : "none";
+}
+
+document.querySelectorAll('.dropdown-options').forEach(drop => {
+  drop.addEventListener('click', function(e) {
+    if (e.target && e.target.matches('div')) {
+      const input = this.previousElementSibling;
+      input.value = e.target.textContent;
+      this.style.display = 'none';
+    }
+  });
+});
+
+document.addEventListener('click', function(e) {
+  if (!e.target.closest('.trait-slot')) {
+    document.querySelectorAll('.dropdown-options').forEach(drop => drop.style.display = 'none');
+  }
+});
+
+// Star
+function toggleStar(button) {
+  button.textContent = button.textContent === "☆" ? "★" : "☆";
+}
+</script>
+
+<style>
+.base-traits {
+  background: #c9c9c9;
+  padding: 10px;
+  width: 100%;
+  max-width: 600px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.base-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #e1e1e1;
+  margin: -10px -10px 10px -10px;
+  padding: 5px 10px;
+  box-sizing: border-box;
+}
+
+.collapse-btn {
+  background: none;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.base-traits-slots {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.trait-slot {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.trait-slot label {
+  font-weight: bold;
+  flex: 0 0 auto;
+  min-width: 100px;
+}
+
+.trait-slot input {
+  flex: 1 1 auto;
+  padding: 5px 8px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.dropdown-options {
+  background: #fff;
+  border: 1px solid #ccc;
+  max-height: 150px;
+  overflow-y: auto;
+  display: none;
+  z-index: 10;
+}
+
+.star-btn {
+  font-size: 18px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+.dropdown-options div {
+  padding: 5px 8px;
+  cursor: pointer;
+}
+
+.dropdown-options div:hover {
+  background: #e1e1e1;
+}
+</style>
