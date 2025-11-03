@@ -29,6 +29,7 @@ const colour = {
 				 "ragdoll", "reindeer", "rhino", "rhodonite", "rosepink", "roughruby", "seer", "sepulture", "shard", 
 				 "sidereal", "skyward", "spectre", "styx", "sunrise", "sunset", "supernal", "unholy", "waterhyacinth", 
 				 "wicked", "windfall", "zombie"],
+	piety: ["fennec", "progenitor"],
 	breedonly: [ "abyssinian", "algae", "amber", "anjeer", "ashen", "beet", "briar", "cameo", "champagne", "chartreux", 
 				"cimmerian", "cinnabar", "clay", "cocoa", "copal", "damu", "dinar", "ebony", "fiery", "flaxen", "flint", 
 				"fulvous", "goldenrod", "honey", "lilac", "Marigold", "mushroom", "nacarat", "nudar", "orchid", "pearl", 
